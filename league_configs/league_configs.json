@@ -1256,5 +1256,39 @@
       "2P Conv": 2,
       "2P Pass": 2
     }
+  },
+  {
+    "action": "submit_config",
+    "league_config_id": "C6BD3",
+    "readable_name": "11_Team_HalfPPR_Custom_Scoring_C6BD3",
+    "league_settings": {
+      "# of Teams": 11,
+      "# of weeks": 15,
+      "QB": 1,
+      "RB": 2,
+      "WR": 2,
+      "TE": 1,
+      "WR/RB": 0,
+      "WR/TE": 0,
+      "WR/RB/TE": 1,
+      "QB/WR/RB/TE": 0,
+      "Bench": 6,
+      "K": 1,
+      "DST": 1
+    },
+    "scoring_settings": {
+      "Pass yds": 0.05,
+      "Rush yds": 0,
+      "Rec yds": 0.2,
+      "Pass TD": 4,
+      "Rush TD": 6,
+      "Rec TD": 6,
+      "Other TD": 6,
+      "Rec": 0.5,
+      "Int": -2,
+      "Fumble": -2,
+      "2P Conv": 2,
+      "2P Pass": 2
+    }
   }
 ]
