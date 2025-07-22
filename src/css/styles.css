@@ -1,12 +1,12 @@
 
     @font-face {
       font-family: 'Instrument Sans';
-      src: url('src/fonts/InstrumentSans[wdth,wght].ttf') format('truetype');
+      src: url('/neat.sheet/src/fonts/InstrumentSans[wdth,wght].ttf') format('truetype');
     }
 
     @font-face {
       font-family: 'Avenir-Heavy';
-      src: url('src/fonts/Avenir-Heavy.ttf') format('truetype');
+      src: url('/neat.sheet/src/fonts/Avenir-Heavy.ttf') format('truetype');
     }
 
     .material-symbols-outlined.logo {
