@@ -1,0 +1,616 @@
+
+    @font-face {
+      font-family: 'Instrument Sans';
+      src: url('src/fonts/InstrumentSans[wdth,wght].ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Avenir-Heavy';
+      src: url('src/fonts/Avenir-Heavy.ttf') format('truetype');
+    }
+
+    .material-symbols-outlined.logo {
+      font-variation-settings:
+      'FILL' 1,
+      'wght' 475,
+      'GRAD' 200,
+      'opsz' 16;
+    }
+
+    .material-symbols-outlined.info_mouseover {
+      color:var(--main-gray);
+      font-size: 1.2em;
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 600,
+      'GRAD' 0,
+      'opsz' 16;
+      position: relative;
+      cursor: help;
+    }
+
+    .material-symbols-outlined.more_info {
+      font-variation-settings:
+      'FILL' 1,
+      'wght' 700,
+      'GRAD' 200,
+      'opsz' 35;
+    }
+
+    /* Minimal tooltip styles */
+    .info-tooltip {
+      position: absolute;
+      background: var(--main-gray);
+      color: white;
+      padding: 0.5em 0.75em;
+      border-radius: var(--border-radius);
+      font-size: 0.8em;
+      font-weight: 500;
+      white-space: nowrap;
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+      bottom: calc(100% + 0.5em);
+      left: 50%;
+      transform: translateX(-50%) scale(0.9);
+      font-family: 'Instrument Sans', sans-serif;
+    }
+
+    .info-tooltip::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 3px solid transparent;
+      border-top-color: var(--main-gray);
+    }
+
+    .material-symbols-outlined.info_mouseover:hover .info-tooltip {
+      opacity: 1;
+    }
+
+    .material-symbols-outlined.status_icons {
+      font-size: 1.25em;
+      font-variation-settings:
+      'FILL' 1,
+      'wght' 700,
+      'GRAD' 200,
+      'opsz' 16;
+    }
+
+    :root {
+      --main-green: #1f702eff;
+      --main-purple: #6a4091ff;
+      --main-blue: #1F61B3ff;
+      --main-red: #b81427ff;
+      --main-pink: #BF1168ff;
+      --main-teal: #29767aff;
+      --main-orange: #AB5800ff;
+      --main-gray: #464646ff;
+      --main-green-25: #1f702e26;
+      --main-purple-25: #6a409126;
+      --main-blue-25: #1F61B326;
+      --main-red-25: #b8142726;
+      --main-pink-25: #BF116826;
+      --main-teal-25: #29767a26;
+      --main-orange-25: #AB580026;
+      --main-gray-25: #46464626;
+      --border-radius: 4px;
+      --border-size: 2px;
+      --border-color: rgba(0,0,0,0.2);
+    }
+
+    body { 
+      background: #f9f9f9; 
+      color: #333; 
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 475;
+      font-feature-settings: 'ss09' 1, 'ss05' 1, 'ss08' 1, 'ss04' 1, 'ss10' 1;
+      margin: 0; 
+      padding: 1em;
+      text-rendering: optimizeLegibility;
+    }
+
+    .main-container {
+      max-width: 1250px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+
+    .header-branding-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .how-to-container {
+      flex:1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .config-status-file-combo {
+      display: flex;
+      gap: 1em;
+      flex-wrap: wrap;
+    }
+
+    .configs-container {
+      flex: 1;
+      max-width: 500px;
+      box-sizing: border-box;
+    }
+
+    .settings-sections-container {
+      display: flex;
+      gap: 1em;
+    }
+
+    .league-settings-container,
+    .scoring-settings-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .status-files-container {
+      flex: 1;
+      min-width: 340px;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+
+    h2 {
+      margin: 0;
+      color: white;
+      background: #808080;
+      padding: 0.4em 0.8em;
+      border-radius: var(--border-radius) var(--border-radius) 0 0;
+      letter-spacing: -0.6px;
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 800;
+      font-feature-settings: 'ss09' 1, 'ss05' 1, 'ss08' 1, 'ss04' 1;
+      font-size: 1.418em;
+      position: relative;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow: hidden;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .how-to-container h2 {
+      background: var(--main-gray);
+    }
+
+    .configs-container h2 {
+      background: var(--main-blue);
+    }
+
+    .league-settings-container h2 {
+      background: var(--main-blue);
+    }
+
+    .scoring-settings-container h2 {
+      background: var(--main-pink);
+    }
+
+    .status-files-container h2 {
+      background: var(--main-gray);
+    }
+
+    h3 {
+      color: var(--main-green);
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 800;
+      font-feature-settings: 'ss09' 1, 'ss05' 1, 'ss08' 1, 'ss04' 1;
+      letter-spacing: -0.4px;
+      font-size: 1em;
+      margin-bottom: 0.3em;
+      margin-top: 1em;
+    }
+
+    h3:first-of-type {
+      margin-top: 0;
+    }    .settings-grid {
+      flex:auto;
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0.4em 0.8em;
+      background:var(--main-blue-25);
+      border: var(--border-size) solid var(--main-blue);
+      border-top: none;
+      border-radius: 0px 0px var(--border-radius) var(--border-radius);
+      padding: 0.2em 0.8em;
+      width: 100%;
+      box-sizing: border-box;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    /* League Settings Grid - Custom styling */
+    .league-settings-grid {
+      background: var(--main-blue-25);
+      border-color: var(--main-blue);
+    }    /* Scoring Settings Grid - Custom styling */
+    .scoring-settings-grid {
+      background: var(--main-pink-25);
+      border-color: var(--main-pink);
+    }
+
+    /* Scoring settings container - green styling for all elements */
+    .scoring-settings-container .input-container label {
+      color: var(--main-pink);
+    }
+
+    .scoring-settings-container .number-input-wrapper {
+      border-color: var(--main-pink-25);
+    }
+
+    .scoring-settings-container .number-input-wrapper:focus-within {
+      border-color: var(--main-pink);
+    }
+
+    .input-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.2em;
+      padding: 0.15em;
+      box-sizing: border-box;
+      transition: all 0.2s ease;
+    }
+
+    .input-container label {
+      font-size: 0.95em;
+      color: var(--main-blue);
+      flex-shrink: 0;
+      margin-bottom: 0;
+      white-space: nowrap;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      min-width: auto;
+      max-width: 110px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-transform: uppercase;
+    }
+
+    .number-input-wrapper {
+      display: flex;
+      align-items: center;
+      border: var(--border-size) solid var(--main-blue-25);
+      border-radius: var(--border-radius);
+      background: white;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+      overflow: hidden;
+    }
+
+    .number-input-wrapper:hover {
+      transform: scale(1.05);
+      transition: all 0.2s ease-in-out;
+    }
+
+    .number-input-wrapper:focus-within {
+      border: var(--border-size) solid var(--main-blue);
+    }
+
+    .number-input-btn {
+      width: 20px;
+      height: 26px;
+      border: none;
+      background: white;
+      color: #666;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+      user-select: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .number-input-btn:hover {
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    .number-input-btn:active {
+      background: #d0d0d0;
+    }
+
+    .input-container .disabled_input_button_with_info {
+      display: flex;
+      align-items: center;
+      gap: 0.3em;
+    }
+
+    .number-input-wrapper.disabled-btns {
+      background: #f7f7f7;
+      border: var(--border-size) solid #bbb !important;
+      color: #bbb;
+    }
+
+    .number-input-wrapper.disabled-btns:hover {
+      transform: scale(1.0);
+    }
+
+    .number-input-wrapper.disabled-btns .number-input-btn {
+      background: #f7f7f7 !important;
+      color: #bbb !important;
+      pointer-events: none;
+      opacity: 0.8;
+    }
+
+    .number-input-wrapper.disabled-btns input[type="number"] {
+      background: #f7f7f7;
+      color: #bbb;
+    }
+
+    .input-container input[type="number"] {
+      width: 35px;
+      font-size: 0.8em;
+      text-align: right;
+      border: none;
+      color: #333;
+      font-family: 'Avenir-Heavy', sans-serif;
+      box-sizing: border-box;
+      transition: all 0.2s ease;
+      font-weight: 550;
+      height: 26px;
+      background: white;
+      outline: none;
+      margin: 0;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    input[type="number"] {
+      -moz-appearance: textfield;
+      appearance: textfield;
+    }
+
+    .file-list {
+      max-height: 280px;
+      overflow-y: auto;
+      margin-bottom: 1em;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .file-list li a {
+      color: var(--main-blue);
+      text-decoration: none;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: flex;
+      max-width: 100%;
+      align-items: center;
+    }
+
+    .file-list li:hover {
+      background: var(--row-alt-color);
+    }
+
+    .how-to-info {
+      flex: auto;
+      background: var(--main-gray-25);
+      border: var(--border-size) solid var(--main-gray);
+      border-top: none;
+      border-radius: 0px 0px var(--border-radius) var(--border-radius);
+      padding: 2em;
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 475;
+      font-feature-settings: 'ss09' 1, 'ss05' 1, 'ss08' 1, 'ss04' 1, 'ss10' 1;
+      font-size: 1.1em;
+      color: var(--main-gray);
+      line-height: 2;
+      letter-spacing: -0.3px;
+    }
+
+    .how-to-info {
+      position: relative; /* Add this line */
+    }
+
+    .help-fab {
+      position: absolute;
+      right: 1.5em;
+      bottom: 1.5em;
+      z-index: 10;
+    }
+
+    .help-fab .material-symbols-outlined {
+      font-size: 2em;
+      color: var(--main-gray);
+      cursor: pointer;
+      transition: 
+        opacity 0.2s,
+        box-shadow 0.2s,
+        transform 0.2s;
+    }
+
+    .help-fab .material-symbols-outlined:hover,
+    .help-fab .material-symbols-outlined:focus {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
+
+    .how-to-info ul {
+      padding: 0;
+      margin-bottom: 3em;
+    }
+
+    /* Color-coded text in how-to instructions */
+    .how-to-info .league-text {
+      color: white;
+      background: var(--main-blue);
+      border-radius: var(--border-radius);
+      padding: 0.275em 0.5em;
+      letter-spacing: -0.6px;
+      font-weight: 700;
+    }
+
+    .how-to-info .scoring-text {
+      color: white;
+      background: var(--main-pink);
+      border-radius: var(--border-radius);
+      padding: 0.275em 0.5em;
+      letter-spacing: -0.6px;
+      font-weight: 700;
+    }
+
+    .how-to-info .status-text {
+      color: white;
+      background: var(--main-gray);
+      border-radius: var(--border-radius);
+      padding: 0.275em 0.5em;
+      letter-spacing: -0.6px;
+      font-weight: 700;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .branding-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.9;
+      font-size: 1.1em;
+    }
+
+    .branding-logo {
+      font-size: calc(17px * 1.1);
+      margin-right: -0.5px;
+      padding-top: 2px;
+    }
+
+    .branding-type-container {
+      display: block;
+      font-size: 17px;
+    }
+
+    .branding-type-first {
+      font-weight: 800;
+      letter-spacing: -0.6px;
+    }
+
+    .branding-type-second{
+      font-weight: 400;
+      letter-spacing: -1.1px;
+    }    
+    
+    .scoring-group {
+      padding: 0.5em 0 1em 0;
+      border-bottom: var(--border-size) solid var(--main-blue);
+      grid-column: 1 / -1;
+    }
+
+    .scoring-group:last-child {
+      border-bottom: none;
+    }
+
+    .scoring-group-title {
+      font-size: 1em;
+      font-weight: 700;
+      color: var(--main-blue);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Scoring groups within scoring settings - use green colors */
+    .scoring-settings-container .scoring-group {
+      border-bottom-color: var(--main-pink);
+    }
+
+    .scoring-settings-container .scoring-group-title {
+      color: var(--main-pink);
+    }
+
+    .league-group {
+      padding: 0.5em 0 1em 0;
+      border-bottom: var(--border-size) solid var(--main-blue);
+      grid-column: 1 / -1;
+    }
+
+    .league-group:last-child {
+      border-bottom: none;
+    }
+
+    .league-group-title {
+      font-size: 1em;
+      font-weight: 700;
+      color: var(--main-blue);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .loading-spinner {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 5px solid var(--border-color);
+      border-radius: 50%;
+      border-top-color: var(--main-gray);
+      animation: spin 1.5s ease-in-out infinite;
+      margin-right: 0.2em;
+    }
+
+    @media (max-width: 1050px) {
+      .config-status-file-combo { 
+        flex-direction: column; 
+        gap: 1.2em; 
+      }
+    }
+
+    @media (max-width: 900px) {
+      .config-status-file-combo {
+        flex-direction: column;
+        gap: 1.5em;
+      }
+      
+      .settings-sections-container {
+        flex-direction: column;
+        gap: 1em;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .settings-grid { 
+        grid-template-columns: 1fr; 
+        gap: 0.3em 0; 
+        padding: 0.6em;
+      }
+      
+      .settings-sections-container {
+        flex-direction: column;
+        gap: 1em;
+      }
+      
+      .input-container {
+        padding: 0.3em 0.4em;
+        min-height: 28px;
+        max-width: 100%;
+      }
+      
+      .input-container input[type="number"] {
+        max-width: 50px;
+        width: 50px;
+        height: 26px;
+      }
+    }
