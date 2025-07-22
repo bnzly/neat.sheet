@@ -6560,5 +6560,39 @@
       "2P Conv": 2,
       "2P Pass": 2
     }
+  },
+  {
+    "action": "submit_config",
+    "league_config_id": "8E403",
+    "readable_name": "16_Team_PPR_Custom_Scoring_8E403",
+    "league_settings": {
+      "# of Teams": 16,
+      "# of weeks": 17,
+      "QB": 1,
+      "RB": 2,
+      "WR": 3,
+      "TE": 1,
+      "WR/RB": 0,
+      "WR/TE": 0,
+      "WR/RB/TE": 1,
+      "QB/WR/RB/TE": 0,
+      "Bench": 11,
+      "K": 1,
+      "DST": 1
+    },
+    "scoring_settings": {
+      "Pass yds": 0,
+      "Rush yds": 0,
+      "Rec yds": 0,
+      "Pass TD": 6,
+      "Rush TD": 6,
+      "Rec TD": 6,
+      "Other TD": 6,
+      "Rec": 1,
+      "Int": 0,
+      "Fumble": 0,
+      "2P Conv": 2,
+      "2P Pass": 2
+    }
   }
 ]
