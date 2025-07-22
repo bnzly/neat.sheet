@@ -1630,5 +1630,39 @@
       "2P Conv": 2,
       "2P Pass": 2
     }
+  },
+  {
+    "action": "submit_config",
+    "league_config_id": "5F2D3",
+    "readable_name": "12_Team_PPR_Custom_Scoring_5F2D3",
+    "league_settings": {
+      "# of Teams": 12,
+      "# of weeks": 17,
+      "QB": 1,
+      "RB": 2,
+      "WR": 2,
+      "TE": 1,
+      "WR/RB": 0,
+      "WR/TE": 0,
+      "WR/RB/TE": 2,
+      "QB/WR/RB/TE": 0,
+      "Bench": 5,
+      "K": 1,
+      "DST": 1
+    },
+    "scoring_settings": {
+      "Pass yds": 0.04,
+      "Rush yds": 0.1,
+      "Rec yds": 0.1,
+      "Pass TD": 4,
+      "Rush TD": 6,
+      "Rec TD": 4,
+      "Other TD": 4,
+      "Rec": 1,
+      "Int": -2,
+      "Fumble": -2,
+      "2P Conv": 2,
+      "2P Pass": 2
+    }
   }
 ]
