@@ -7954,5 +7954,39 @@
       "2P Conv": 2,
       "2P Pass": 2
     }
+  },
+  {
+    "action": "submit_config",
+    "league_config_id": "CA706",
+    "readable_name": "12_Team_NoPPR_Custom_Scoring_CA706",
+    "league_settings": {
+      "# of Teams": 12,
+      "# of weeks": 17,
+      "QB": 1,
+      "RB": 1,
+      "WR": 1,
+      "TE": 1,
+      "WR/RB": 1,
+      "WR/TE": 0,
+      "WR/RB/TE": 1,
+      "QB/WR/RB/TE": 0,
+      "Bench": 8,
+      "K": 1,
+      "DST": 1
+    },
+    "scoring_settings": {
+      "Pass yds": 0.02,
+      "Rush yds": 0.05,
+      "Rec yds": 0.05,
+      "Pass TD": 3,
+      "Rush TD": 6,
+      "Rec TD": 6,
+      "Other TD": 6,
+      "Rec": 0,
+      "Int": -1,
+      "Fumble": -1,
+      "2P Conv": 2,
+      "2P Pass": 2
+    }
   }
 ]
