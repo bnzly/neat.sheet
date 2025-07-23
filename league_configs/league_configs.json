@@ -10606,5 +10606,39 @@
       "WR": 2,
       "# of weeks": 15
     }
+  },
+  {
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.05,
+      "Rec": 1,
+      "Rush TD": 5,
+      "Rec yds": 0.1,
+      "Pass yds": 0.01,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 5,
+      "Fumble": 0,
+      "Other TD": 5,
+      "Pass TD": 5,
+      "Int": -1
+    },
+    "readable_name": "10_Team_PPR_Custom_Scoring_35C3D",
+    "league_config_id": "35C3D",
+    "league_settings": {
+      "Bench": 6,
+      "DST": 1,
+      "WR/RB/TE": 2,
+      "# of Teams": 10,
+      "WR/TE": 0,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0,
+      "RB": 1,
+      "QB": 1,
+      "TE": 1,
+      "WR": 2,
+      "# of weeks": 17
+    }
   }
 ]
