@@ -779,33 +779,19 @@
                       <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('bench')">+</button>
                     </div>
                   </div>
-                  <div class="input-container">
-                      <label for="k">Kicker</label>
-                    <span class="disabled_input_button_with_info">
-                      <span class="material-symbols-outlined info_mouseover">
-                        info
-                        <div class="info-tooltip">Only one 'Kicker' supported at this time</div>
-                      </span>
-                      <div class="number-input-wrapper disabled-btns">
-                        <button type="button" class="number-input-btn" tabindex="-1" disabled>−</button>
-                        <input type="number" id="k" name="k" value="1" min="0" max="4" disabled>
-                        <button type="button" class="number-input-btn" tabindex="-1" disabled>+</button>
-                      </div>
-                    </span>
+                  <div class="input-container"><label for="k">Kicker</label>
+                    <div class="number-input-wrapper">
+                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('k')">−</button>
+                      <input type="number" id="k" name="k" value="1" min="0" max="2">
+                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('k')">+</button>
+                    </div>
                   </div>
-                  <div class="input-container">
-                      <label for="dst">Defense/ST</label>
-                    <span class="disabled_input_button_with_info">
-                      <span class="material-symbols-outlined info_mouseover">
-                        info
-                        <div class="info-tooltip">Only one 'Defense/ST' supported at this time</div>
-                      </span>
-                      <div class="number-input-wrapper disabled-btns">
-                        <button type="button" class="number-input-btn" tabindex="-1" disabled>−</button>
-                        <input type="number" id="dst" name="dst" value="1" min="0" max="4" disabled>
-                        <button type="button" class="number-input-btn" tabindex="-1" disabled>+</button>
-                      </div>
-                    </span>
+                  <div class="input-container"><label for="dst">Defense/ST</label>
+                    <div class="number-input-wrapper">
+                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('dst')">−</button>
+                      <input type="number" id="dst" name="dst" value="1" min="0" max="2">
+                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('dst')">+</button>
+                    </div>
                   </div>
                 </div>
               </div>
