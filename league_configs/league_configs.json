@@ -11966,5 +11966,39 @@
       "WR": 3,
       "# of weeks": 17
     }
+  },
+  {
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 0.5,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 6,
+      "Int": -1
+    },
+    "readable_name": "12_Team_HalfPPR_Custom_Scoring_A64E4",
+    "league_config_id": "A64E4",
+    "league_settings": {
+      "Bench": 7,
+      "DST": 1,
+      "WR/RB/TE": 2,
+      "# of Teams": 12,
+      "WR/TE": 0,
+      "WR/RB": 0,
+      "K": 0,
+      "QB/WR/RB/TE": 0,
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "WR": 2,
+      "# of weeks": 15
+    }
   }
 ]
