@@ -1,6 +1,6 @@
 <head>
   <meta charset="UTF-8">
-  <title>neat.sheet</title>
+  <title>Generator | neat.sheet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="src/images/neatsheet-logo-color.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -118,7 +118,7 @@
       font-weight: 475;
       font-feature-settings: 'ss09' 1, 'ss05' 1, 'ss08' 1, 'ss04' 1, 'ss10' 1;
       margin: 0; 
-      padding: 1em;
+      padding: 0.75em;
       text-rendering: optimizeLegibility;
     }
 
@@ -127,7 +127,7 @@
       margin: auto;
       display: flex;
       flex-direction: column;
-      gap: 1em;
+      gap: 0.75em;
     }
 
     .header-branding-container {
@@ -435,29 +435,6 @@
       position: relative; /* Add this line */
     }
 
-    .help-fab {
-      position: absolute;
-      right: 1.5em;
-      bottom: 1.5em;
-      z-index: 10;
-    }
-
-    .help-fab .material-symbols-outlined {
-      font-size: 2em;
-      color: var(--main-gray);
-      cursor: pointer;
-      transition: 
-        opacity 0.2s,
-        box-shadow 0.2s,
-        transform 0.2s;
-    }
-
-    .help-fab .material-symbols-outlined:hover,
-    .help-fab .material-symbols-outlined:focus {
-      opacity: 0.9;
-      transform: scale(1.05);
-    }
-
     .how-to-info ul {
       padding: 0;
       margin-bottom: 3em;
@@ -489,6 +466,44 @@
       padding: 0.275em 0.5em;
       letter-spacing: -0.6px;
       font-weight: 700;
+    }
+
+    /* Footer Styles - mirrored from header-branding-container */
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: right;
+    }
+
+    .footer-buttons {
+      display: flex;
+      align-items: center;
+      gap: 0.75em;
+    }
+
+    .footer-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      color: var(--main-gray);
+      transition: all 0.2s ease;
+    }
+
+    .footer-btn:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+      transition: all 0.2s ease;
+    }
+
+    .footer-btn img {
+      width: 30px;
+      height: 30px;
+      flex-shrink: 0;
+    }
+
+    .footer-btn span {
+      font-weight: 475;
+      letter-spacing: -0.3px;
     }
 
     @keyframes spin {
@@ -924,16 +939,20 @@
               As you change settings, the <span class="status-text">Status</span> area above the input form will automatically check if a draft sheet exists for your configuration. If available, a download link will appear. If not, you'll be prompted to submit your configuration.
             </ul>
           </ul>
-          <div class="help-fab">
-            <a href="https://github.com/bnzly/neat.sheet" target="_blank" title="More Information" style="text-decoration:none;">
-              <span class="material-symbols-outlined more_info" style="font-size:2em; color:var(--main-gray); cursor:pointer; vertical-align:middle;">
-                help
-              </span>
-            </a>
-          </div>
         </div>
       </div>
     </div>
+        <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-buttons">
+        <a href="https://coff.ee/bnzly" target="_blank" class="footer-btn coffee-btn" title="Buy Me a Coffee">
+          <img src="src/images/bmc-logo.svg" alt="Buy Me a Coffee" width="25" height="25">
+        </a>
+        <a href="https://github.com/bnzly/neat.sheet" target="_blank" class="footer-btn github-btn" title="View on GitHub">
+          <img src="src/images/github-mark.svg" alt="GitHub" width="25" height="25">
+        </a>
+      </div>
+    </footer>
   </div>
 
   <script src="src/js/main.obf.js"></script>
