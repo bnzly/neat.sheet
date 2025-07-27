@@ -12238,5 +12238,39 @@
       "WR": 3,
       "# of weeks": 17
     }
+  },
+  {
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 0,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": 0,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": 0
+    },
+    "readable_name": "12_Team_NoPPR_Custom_Scoring_7C9D2",
+    "league_config_id": "7C9D2",
+    "league_settings": {
+      "Bench": 6,
+      "DST": 0,
+      "WR/RB/TE": 1,
+      "# of Teams": 12,
+      "WR/TE": 0,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0,
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "WR": 2,
+      "# of weeks": 17
+    }
   }
 ]
