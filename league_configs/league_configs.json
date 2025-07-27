@@ -12000,5 +12000,73 @@
       "WR": 2,
       "# of weeks": 15
     }
+  },
+  {
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 1,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -3
+    },
+    "readable_name": "12_Team_PPR_Custom_Scoring_ACF8D",
+    "league_config_id": "ACF8D",
+    "league_settings": {
+      "Bench": 6,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "# of Teams": 12,
+      "WR/TE": 2,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0,
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "WR": 2,
+      "# of weeks": 17
+    }
+  },
+  {
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 1,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 6,
+      "Int": -3
+    },
+    "readable_name": "12_Team_PPR_Custom_Scoring_4380E",
+    "league_config_id": "4380E",
+    "league_settings": {
+      "Bench": 6,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "# of Teams": 12,
+      "WR/TE": 2,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0,
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "WR": 2,
+      "# of weeks": 17
+    }
   }
 ]
