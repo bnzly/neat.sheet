@@ -7,7 +7,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -45,7 +46,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -83,7 +85,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -121,7 +124,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -159,7 +163,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -197,7 +202,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -235,7 +241,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -273,7 +280,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -311,7 +319,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -349,7 +358,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -387,7 +397,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -425,7 +436,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -463,7 +475,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -501,7 +514,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -539,7 +553,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -577,7 +592,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -615,7 +631,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -653,7 +670,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -691,7 +709,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -729,7 +748,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -767,7 +787,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -805,7 +826,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -843,7 +865,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -881,7 +904,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -919,7 +943,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -957,7 +982,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -995,7 +1021,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1033,7 +1060,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -1071,7 +1099,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1109,7 +1138,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -1147,7 +1177,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1185,7 +1216,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1223,7 +1255,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1261,7 +1294,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1299,7 +1333,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1337,7 +1372,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1375,7 +1411,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1413,7 +1450,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1451,7 +1489,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1489,7 +1528,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1527,7 +1567,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1565,7 +1606,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1603,7 +1645,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1641,7 +1684,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1679,7 +1723,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1717,7 +1762,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1755,7 +1801,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1793,7 +1840,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1831,7 +1879,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1869,7 +1918,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1907,7 +1957,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1945,7 +1996,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -1983,7 +2035,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2021,7 +2074,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2059,7 +2113,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2097,7 +2152,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2135,7 +2191,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2173,7 +2230,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2211,7 +2269,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2249,7 +2308,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2287,7 +2347,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -2325,7 +2386,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2363,7 +2425,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2401,7 +2464,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2439,7 +2503,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2477,7 +2542,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2515,7 +2581,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2553,7 +2620,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2591,7 +2659,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2629,7 +2698,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2667,7 +2737,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2705,7 +2776,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2743,7 +2815,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2781,7 +2854,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2819,7 +2893,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2857,7 +2932,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2895,7 +2971,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2933,7 +3010,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -2971,7 +3049,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3009,7 +3088,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3047,7 +3127,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3085,7 +3166,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3123,7 +3205,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3161,7 +3244,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3199,7 +3283,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3237,7 +3322,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3275,7 +3361,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -3313,7 +3400,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3351,7 +3439,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -3389,7 +3478,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3427,7 +3517,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3465,7 +3556,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3503,7 +3595,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3541,7 +3634,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3579,7 +3673,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3617,7 +3712,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3655,7 +3751,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3693,7 +3790,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3731,7 +3829,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3769,7 +3868,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3807,7 +3907,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3845,7 +3946,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3883,7 +3985,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3921,7 +4024,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3959,7 +4063,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -3997,7 +4102,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4035,7 +4141,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -4073,7 +4180,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4111,7 +4219,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4149,7 +4258,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4187,7 +4297,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4225,7 +4336,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4263,7 +4375,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4301,7 +4414,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4339,7 +4453,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4377,7 +4492,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4415,7 +4531,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4453,7 +4570,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4491,7 +4609,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4529,7 +4648,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4567,7 +4687,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4605,7 +4726,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4643,7 +4765,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4681,7 +4804,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4719,7 +4843,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4757,7 +4882,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4795,7 +4921,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4833,7 +4960,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4871,7 +4999,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4909,7 +5038,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4947,7 +5077,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -4985,7 +5116,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5023,7 +5155,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5061,7 +5194,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5099,7 +5233,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5137,7 +5272,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -5175,7 +5311,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5213,7 +5350,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5251,7 +5389,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5289,7 +5428,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -5327,7 +5467,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5365,7 +5506,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5403,7 +5545,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5441,7 +5584,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5479,7 +5623,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5517,7 +5662,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -5555,7 +5701,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5593,7 +5740,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5631,7 +5779,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5669,7 +5818,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5707,7 +5857,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5745,7 +5896,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5783,7 +5935,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5821,7 +5974,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5859,7 +6013,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5897,7 +6052,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5935,7 +6091,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -5973,7 +6130,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6011,7 +6169,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6049,7 +6208,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6087,7 +6247,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -6125,7 +6286,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6163,7 +6325,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6201,7 +6364,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6239,7 +6403,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6277,7 +6442,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6315,7 +6481,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -6353,7 +6520,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -6391,7 +6559,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6429,7 +6598,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6467,7 +6637,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6505,7 +6676,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6543,7 +6715,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6581,7 +6754,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6619,7 +6793,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6657,7 +6832,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6695,7 +6871,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6733,7 +6910,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6771,7 +6949,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6809,7 +6988,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6847,7 +7027,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6885,7 +7066,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6923,7 +7105,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6961,7 +7144,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -6999,7 +7183,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7037,7 +7222,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7075,7 +7261,8 @@
       "# of weeks": 18,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7113,7 +7300,8 @@
       "# of weeks": 18,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7151,7 +7339,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7189,7 +7378,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7227,7 +7417,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7265,7 +7456,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7303,7 +7495,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7341,7 +7534,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7379,7 +7573,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7417,7 +7612,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7455,7 +7651,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7493,7 +7690,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7531,7 +7729,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7569,7 +7768,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -7607,7 +7807,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7645,7 +7846,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7683,7 +7885,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7721,7 +7924,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7759,7 +7963,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7797,7 +8002,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7835,7 +8041,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7873,7 +8080,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7911,7 +8119,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7949,7 +8158,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -7987,7 +8197,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8025,7 +8236,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8063,7 +8275,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8101,7 +8314,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8139,7 +8353,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -8177,7 +8392,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8215,7 +8431,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8253,7 +8470,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8291,7 +8509,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8329,7 +8548,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8367,7 +8587,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8405,7 +8626,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8443,7 +8665,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8481,7 +8704,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8519,7 +8743,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8557,7 +8782,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8595,7 +8821,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8633,7 +8860,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8671,7 +8899,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8709,7 +8938,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8747,7 +8977,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8785,7 +9016,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8823,7 +9055,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8861,7 +9094,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8899,7 +9133,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8937,7 +9172,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -8975,7 +9211,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9013,7 +9250,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9051,7 +9289,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9089,7 +9328,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9127,7 +9367,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9165,7 +9406,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9203,7 +9445,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9241,7 +9484,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9279,7 +9523,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9317,7 +9562,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -9355,7 +9601,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9393,7 +9640,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9431,7 +9679,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9469,7 +9718,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9507,7 +9757,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9545,7 +9796,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9583,7 +9835,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9621,7 +9874,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9659,7 +9913,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9697,7 +9952,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9735,7 +9991,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9773,7 +10030,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9811,7 +10069,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9849,7 +10108,8 @@
       "# of weeks": 18,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9887,7 +10147,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9925,7 +10186,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -9963,7 +10225,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10001,7 +10264,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -10039,7 +10303,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10077,7 +10342,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10115,7 +10381,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10153,7 +10420,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10191,7 +10459,8 @@
       "# of weeks": 18,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10229,7 +10498,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10267,7 +10537,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10305,7 +10576,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10343,7 +10615,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10381,7 +10654,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10419,7 +10693,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10457,7 +10732,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10495,7 +10771,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10533,7 +10810,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10571,7 +10849,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10609,7 +10888,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10647,7 +10927,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10685,7 +10966,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10723,7 +11005,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10761,7 +11044,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10799,7 +11083,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10837,7 +11122,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -10875,7 +11161,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10913,7 +11200,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10951,7 +11239,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -10989,7 +11278,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11027,7 +11317,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11065,7 +11356,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11103,7 +11395,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11141,7 +11434,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11179,7 +11473,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11217,7 +11512,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11255,7 +11551,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11293,7 +11590,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11331,7 +11629,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11369,7 +11668,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11407,7 +11707,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11445,7 +11746,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11483,7 +11785,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11521,7 +11824,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11559,7 +11863,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11597,7 +11902,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11635,7 +11941,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11673,7 +11980,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11711,7 +12019,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11749,7 +12058,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11787,7 +12097,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11825,7 +12136,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11863,7 +12175,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11901,7 +12214,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -11939,7 +12253,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -11977,7 +12292,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12015,7 +12331,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12053,7 +12370,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12091,7 +12409,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12129,7 +12448,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -12167,7 +12487,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12205,7 +12526,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12243,7 +12565,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12281,7 +12604,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12319,7 +12643,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12357,7 +12682,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12395,7 +12721,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12433,7 +12760,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12471,7 +12799,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12509,7 +12838,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12547,7 +12877,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12585,7 +12916,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12623,7 +12955,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12661,7 +12994,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12699,7 +13033,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12737,7 +13072,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12775,7 +13111,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12813,7 +13150,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12851,7 +13189,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -12889,7 +13228,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12927,7 +13267,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -12965,7 +13306,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13003,7 +13345,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13041,7 +13384,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13079,7 +13423,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13117,7 +13462,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13155,7 +13501,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13193,7 +13540,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13231,7 +13579,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13269,7 +13618,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13307,7 +13657,8 @@
       "# of weeks": 16,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13345,7 +13696,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -13383,7 +13735,8 @@
       "# of weeks": 15,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13421,7 +13774,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13459,7 +13813,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13497,7 +13852,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13535,7 +13891,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13573,7 +13930,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -13611,7 +13969,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -13649,7 +14008,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 2,
@@ -13687,7 +14047,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13725,7 +14086,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13763,7 +14125,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13801,7 +14164,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13839,7 +14203,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13877,7 +14242,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13915,7 +14281,8 @@
       "# of weeks": 17,
       "draft_type": "snake",
       "auction_budget": 0,
-      "auction_minimum_bid": 0
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "QB": 1,
@@ -13946,29 +14313,15 @@
     }
   },
   {
-    "action": "submit_config",
-    "scoring_settings": {
-      "Rush yds": 0.1,
-      "Rec": 1,
-      "Rush TD": 6,
-      "Rec yds": 0.1,
-      "Pass yds": 0.04,
-      "2P Pass": 2,
-      "2P Conv": 2,
-      "Rec TD": 6,
-      "Fumble": -2,
-      "Other TD": 6,
-      "Pass TD": 4,
-      "Int": -2
-    },
     "readable_name": "3B8B4_snake",
     "league_config_id": "3B8B4",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -13982,16 +14335,13 @@
       "WR/RB": 0,
       "K": 0,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 1,
       "Rush TD": 6,
       "Rec yds": 0.1,
-      "Pass yds": 0.05,
+      "Pass yds": 0.04,
       "2P Pass": 2,
       "2P Conv": 2,
       "Rec TD": 6,
@@ -13999,15 +14349,18 @@
       "Other TD": 6,
       "Pass TD": 4,
       "Int": -2
-    },
+    }
+  },
+  {
     "readable_name": "273F8_snake",
     "league_config_id": "273F8",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14021,32 +14374,32 @@
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
-      "Rec": 0.5,
+      "Rec": 1,
       "Rush TD": 6,
       "Rec yds": 0.1,
-      "Pass yds": 0.04,
+      "Pass yds": 0.05,
       "2P Pass": 2,
       "2P Conv": 2,
       "Rec TD": 6,
       "Fumble": -2,
       "Other TD": 6,
-      "Pass TD": 6,
+      "Pass TD": 4,
       "Int": -2
-    },
+    }
+  },
+  {
     "readable_name": "9C0D5_snake",
     "league_config_id": "9C0D5",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 1,
@@ -14060,10 +14413,46 @@
       "WR/RB": 1,
       "K": 0,
       "QB/WR/RB/TE": 0
+    },
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 0.5,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 6,
+      "Int": -2
     }
   },
   {
-    "action": "submit_config",
+    "readable_name": "EA355_snake",
+    "league_config_id": "EA355",
+    "league_settings": {
+      "# of Teams": 10,
+      "# of weeks": 16,
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
+    },
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 6,
+      "DST": 1,
+      "WR/RB/TE": 2,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 1,
@@ -14077,15 +14466,18 @@
       "Other TD": 6,
       "Pass TD": 4,
       "Int": -2
-    },
-    "readable_name": "EA355_snake",
-    "league_config_id": "EA355",
+    }
+  },
+  {
+    "readable_name": "C44CA_snake",
+    "league_config_id": "C44CA",
     "league_settings": {
       "# of Teams": 10,
+      "# of weeks": 17,
       "draft_type": "snake",
+      "auction_budget": 0,
       "auction_minimum_bid": 0,
-      "# of weeks": 16,
-      "auction_budget": 0
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14093,16 +14485,13 @@
       "TE": 1,
       "Bench": 6,
       "DST": 1,
-      "WR/RB/TE": 2,
+      "WR/RB/TE": 1,
       "WR/TE": 0,
       "WR": 2,
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 1,
@@ -14116,15 +14505,18 @@
       "Other TD": 6,
       "Pass TD": 6,
       "Int": -4
-    },
-    "readable_name": "C44CA_snake",
-    "league_config_id": "C44CA",
+    }
+  },
+  {
+    "readable_name": "2BC36_snake",
+    "league_config_id": "2BC36",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14138,10 +14530,7 @@
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 1,
@@ -14155,54 +14544,18 @@
       "Other TD": 6,
       "Pass TD": 4,
       "Int": -4
-    },
-    "readable_name": "2BC36_snake",
-    "league_config_id": "2BC36",
-    "league_settings": {
-      "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
-      "# of weeks": 17,
-      "auction_budget": 0
-    },
-    "roster_settings": {
-      "RB": 2,
-      "QB": 1,
-      "TE": 1,
-      "Bench": 6,
-      "DST": 1,
-      "WR/RB/TE": 1,
-      "WR/TE": 0,
-      "WR": 2,
-      "WR/RB": 0,
-      "K": 1,
-      "QB/WR/RB/TE": 0
     }
   },
   {
-    "action": "submit_config",
-    "scoring_settings": {
-      "Rush yds": 0.1,
-      "Rec": 0,
-      "Rush TD": 6,
-      "Rec yds": 0.1,
-      "Pass yds": 0.04,
-      "2P Pass": 2,
-      "2P Conv": 2,
-      "Rec TD": 6,
-      "Fumble": -2,
-      "Other TD": 6,
-      "Pass TD": 4,
-      "Int": -2
-    },
     "readable_name": "D5A59_snake",
     "league_config_id": "D5A59",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14216,13 +14569,10 @@
       "WR/RB": 0,
       "K": 0,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
-      "Rec": 0.5,
+      "Rec": 0,
       "Rush TD": 6,
       "Rec yds": 0.1,
       "Pass yds": 0.04,
@@ -14231,17 +14581,20 @@
       "Rec TD": 6,
       "Fumble": -2,
       "Other TD": 6,
-      "Pass TD": 6,
+      "Pass TD": 4,
       "Int": -2
-    },
+    }
+  },
+  {
     "readable_name": "635DF_snake",
     "league_config_id": "635DF",
     "league_settings": {
       "# of Teams": 12,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 15,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14255,10 +14608,46 @@
       "WR/RB": 1,
       "K": 1,
       "QB/WR/RB/TE": 0
+    },
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 0.5,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 6,
+      "Int": -2
     }
   },
   {
-    "action": "submit_config",
+    "readable_name": "1B8C2_snake",
+    "league_config_id": "1B8C2",
+    "league_settings": {
+      "# of Teams": 10,
+      "# of weeks": 17,
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
+    },
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 6,
+      "DST": 0,
+      "WR/RB/TE": 2,
+      "WR/TE": 0,
+      "WR": 3,
+      "WR/RB": 0,
+      "K": 0,
+      "QB/WR/RB/TE": 0
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 0.5,
@@ -14272,54 +14661,18 @@
       "Other TD": 6,
       "Pass TD": 5,
       "Int": -2
-    },
-    "readable_name": "1B8C2_snake",
-    "league_config_id": "1B8C2",
-    "league_settings": {
-      "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
-      "# of weeks": 17,
-      "auction_budget": 0
-    },
-    "roster_settings": {
-      "RB": 2,
-      "QB": 1,
-      "TE": 1,
-      "Bench": 6,
-      "DST": 0,
-      "WR/RB/TE": 2,
-      "WR/TE": 0,
-      "WR": 3,
-      "WR/RB": 0,
-      "K": 0,
-      "QB/WR/RB/TE": 0
     }
   },
   {
-    "action": "submit_config",
-    "scoring_settings": {
-      "Rush yds": 0.1,
-      "Rec": 1,
-      "Rush TD": 6,
-      "Rec yds": 0.1,
-      "Pass yds": 0.04,
-      "2P Pass": 2,
-      "2P Conv": 2,
-      "Rec TD": 6,
-      "Fumble": -2,
-      "Other TD": 6,
-      "Pass TD": 4,
-      "Int": -2
-    },
     "readable_name": "E776F_snake",
     "league_config_id": "E776F",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14333,16 +14686,13 @@
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 1
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
-      "Rush yds": 0,
+      "Rush yds": 0.1,
       "Rec": 1,
       "Rush TD": 6,
-      "Rec yds": 0,
-      "Pass yds": 0,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
       "2P Pass": 2,
       "2P Conv": 2,
       "Rec TD": 6,
@@ -14350,15 +14700,18 @@
       "Other TD": 6,
       "Pass TD": 4,
       "Int": -2
-    },
+    }
+  },
+  {
     "readable_name": "59834_snake",
     "league_config_id": "59834",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14372,10 +14725,46 @@
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 0
+    },
+    "scoring_settings": {
+      "Rush yds": 0,
+      "Rec": 1,
+      "Rush TD": 6,
+      "Rec yds": 0,
+      "Pass yds": 0,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -2
     }
   },
   {
-    "action": "submit_config",
+    "readable_name": "F34BE_snake",
+    "league_config_id": "F34BE",
+    "league_settings": {
+      "# of Teams": 10,
+      "# of weeks": 17,
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
+    },
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 6,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0
+    },
     "scoring_settings": {
       "Rush yds": 0,
       "Rec": 1,
@@ -14389,15 +14778,18 @@
       "Other TD": 6,
       "Pass TD": 3,
       "Int": -2
-    },
-    "readable_name": "F34BE_snake",
-    "league_config_id": "F34BE",
+    }
+  },
+  {
+    "readable_name": "329F4_snake",
+    "league_config_id": "329F4",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14411,10 +14803,7 @@
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 1,
@@ -14428,54 +14817,18 @@
       "Other TD": 6,
       "Pass TD": 4,
       "Int": -2
-    },
-    "readable_name": "329F4_snake",
-    "league_config_id": "329F4",
-    "league_settings": {
-      "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
-      "# of weeks": 17,
-      "auction_budget": 0
-    },
-    "roster_settings": {
-      "RB": 2,
-      "QB": 1,
-      "TE": 1,
-      "Bench": 6,
-      "DST": 1,
-      "WR/RB/TE": 1,
-      "WR/TE": 0,
-      "WR": 2,
-      "WR/RB": 0,
-      "K": 1,
-      "QB/WR/RB/TE": 0
     }
   },
   {
-    "action": "submit_config",
-    "scoring_settings": {
-      "Rush yds": 0.1,
-      "Rec": 1,
-      "Rush TD": 6,
-      "Rec yds": 0.1,
-      "Pass yds": 0.04,
-      "2P Pass": 2,
-      "2P Conv": 2,
-      "Rec TD": 6,
-      "Fumble": -2,
-      "Other TD": 6,
-      "Pass TD": 4,
-      "Int": -2
-    },
     "readable_name": "F5916_snake",
     "league_config_id": "F5916",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 1,
@@ -14489,10 +14842,46 @@
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 0
+    },
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 1,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -2
     }
   },
   {
-    "action": "submit_config",
+    "readable_name": "B63BF_snake",
+    "league_config_id": "B63BF",
+    "league_settings": {
+      "# of Teams": 10,
+      "# of weeks": 15,
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
+    },
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 6,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 1,
@@ -14506,15 +14895,18 @@
       "Other TD": 6,
       "Pass TD": 4,
       "Int": -2
-    },
-    "readable_name": "B63BF_snake",
-    "league_config_id": "B63BF",
+    }
+  },
+  {
+    "readable_name": "754AE_snake",
+    "league_config_id": "754AE",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 15,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14528,10 +14920,7 @@
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 1,
@@ -14545,54 +14934,18 @@
       "Other TD": 6,
       "Pass TD": 4,
       "Int": -2
-    },
-    "readable_name": "754AE_snake",
-    "league_config_id": "754AE",
-    "league_settings": {
-      "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
-      "# of weeks": 15,
-      "auction_budget": 0
-    },
-    "roster_settings": {
-      "RB": 2,
-      "QB": 1,
-      "TE": 1,
-      "Bench": 6,
-      "DST": 1,
-      "WR/RB/TE": 1,
-      "WR/TE": 0,
-      "WR": 2,
-      "WR/RB": 0,
-      "K": 1,
-      "QB/WR/RB/TE": 0
     }
   },
   {
-    "action": "submit_config",
-    "scoring_settings": {
-      "Rush yds": 0.1,
-      "Rec": 0.5,
-      "Rush TD": 6,
-      "Rec yds": 0.1,
-      "Pass yds": 0.04,
-      "2P Pass": 2,
-      "2P Conv": 2,
-      "Rec TD": 6,
-      "Fumble": -2,
-      "Other TD": 6,
-      "Pass TD": 4,
-      "Int": -2
-    },
     "readable_name": "0A011_snake",
     "league_config_id": "0A011",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14606,10 +14959,7 @@
       "WR/RB": 1,
       "K": 1,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 0.5,
@@ -14623,15 +14973,18 @@
       "Other TD": 6,
       "Pass TD": 4,
       "Int": -2
-    },
+    }
+  },
+  {
     "readable_name": "3C693_snake",
     "league_config_id": "3C693",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14645,13 +14998,10 @@
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
-      "Rec": 1,
+      "Rec": 0.5,
       "Rush TD": 6,
       "Rec yds": 0.1,
       "Pass yds": 0.04,
@@ -14662,15 +15012,18 @@
       "Other TD": 6,
       "Pass TD": 4,
       "Int": -2
-    },
+    }
+  },
+  {
     "readable_name": "727D4_snake",
     "league_config_id": "727D4",
     "league_settings": {
       "# of Teams": 12,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14684,13 +15037,10 @@
       "WR/RB": 1,
       "K": 1,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
-      "Rec": 0.5,
+      "Rec": 1,
       "Rush TD": 6,
       "Rec yds": 0.1,
       "Pass yds": 0.04,
@@ -14699,17 +15049,20 @@
       "Rec TD": 6,
       "Fumble": -2,
       "Other TD": 6,
-      "Pass TD": 6,
+      "Pass TD": 4,
       "Int": -2
-    },
+    }
+  },
+  {
     "readable_name": "EA801_snake",
     "league_config_id": "EA801",
     "league_settings": {
       "# of Teams": 14,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 1,
@@ -14723,10 +15076,46 @@
       "WR/RB": 0,
       "K": 0,
       "QB/WR/RB/TE": 0
+    },
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 0.5,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 6,
+      "Int": -2
     }
   },
   {
-    "action": "submit_config",
+    "readable_name": "81559_snake",
+    "league_config_id": "81559",
+    "league_settings": {
+      "# of Teams": 10,
+      "# of weeks": 17,
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
+    },
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 7,
+      "DST": 1,
+      "WR/RB/TE": 2,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0
+    },
     "scoring_settings": {
       "Rush yds": 0.2,
       "Rec": 1,
@@ -14740,54 +15129,18 @@
       "Other TD": 6,
       "Pass TD": 6,
       "Int": -3
-    },
-    "readable_name": "81559_snake",
-    "league_config_id": "81559",
-    "league_settings": {
-      "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
-      "# of weeks": 17,
-      "auction_budget": 0
-    },
-    "roster_settings": {
-      "RB": 2,
-      "QB": 1,
-      "TE": 1,
-      "Bench": 7,
-      "DST": 1,
-      "WR/RB/TE": 2,
-      "WR/TE": 0,
-      "WR": 2,
-      "WR/RB": 0,
-      "K": 1,
-      "QB/WR/RB/TE": 0
     }
   },
   {
-    "action": "submit_config",
-    "scoring_settings": {
-      "Rush yds": 0.1,
-      "Rec": 0.5,
-      "Rush TD": 6,
-      "Rec yds": 0.1,
-      "Pass yds": 0.04,
-      "2P Pass": 2,
-      "2P Conv": 2,
-      "Rec TD": 6,
-      "Fumble": -2,
-      "Other TD": 6,
-      "Pass TD": 4,
-      "Int": -1
-    },
     "readable_name": "3CAF6_snake",
     "league_config_id": "3CAF6",
     "league_settings": {
       "# of Teams": 12,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14801,10 +15154,46 @@
       "WR/RB": 0,
       "K": 0,
       "QB/WR/RB/TE": 0
+    },
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 0.5,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -1
     }
   },
   {
-    "action": "submit_config",
+    "readable_name": "27D49_snake",
+    "league_config_id": "27D49",
+    "league_settings": {
+      "# of Teams": 10,
+      "# of weeks": 17,
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
+    },
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 6,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 1,
@@ -14818,54 +15207,18 @@
       "Other TD": 6,
       "Pass TD": 4,
       "Int": -2
-    },
-    "readable_name": "27D49_snake",
-    "league_config_id": "27D49",
-    "league_settings": {
-      "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
-      "# of weeks": 17,
-      "auction_budget": 0
-    },
-    "roster_settings": {
-      "RB": 2,
-      "QB": 1,
-      "TE": 1,
-      "Bench": 6,
-      "DST": 1,
-      "WR/RB/TE": 1,
-      "WR/TE": 0,
-      "WR": 2,
-      "WR/RB": 0,
-      "K": 1,
-      "QB/WR/RB/TE": 0
     }
   },
   {
-    "action": "submit_config",
-    "scoring_settings": {
-      "Rush yds": 0.1,
-      "Rec": 0.5,
-      "Rush TD": 6,
-      "Rec yds": 0.1,
-      "Pass yds": 0.04,
-      "2P Pass": 2,
-      "2P Conv": 2,
-      "Rec TD": 6,
-      "Fumble": -2,
-      "Other TD": 6,
-      "Pass TD": 4,
-      "Int": -1
-    },
     "readable_name": "C201A_snake",
     "league_config_id": "C201A",
     "league_settings": {
       "# of Teams": 14,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14879,10 +15232,7 @@
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 0.5,
@@ -14896,15 +15246,18 @@
       "Other TD": 6,
       "Pass TD": 4,
       "Int": -1
-    },
+    }
+  },
+  {
     "readable_name": "1EFA6_snake",
     "league_config_id": "1EFA6",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14918,10 +15271,7 @@
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
+    },
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 0.5,
@@ -14934,16 +15284,19 @@
       "Fumble": -2,
       "Other TD": 6,
       "Pass TD": 4,
-      "Int": -2
-    },
+      "Int": -1
+    }
+  },
+  {
     "readable_name": "59DE8_snake",
     "league_config_id": "59DE8",
     "league_settings": {
       "# of Teams": 12,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 16,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -14957,127 +15310,7 @@
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
-    "scoring_settings": {
-      "Rush yds": 0.1,
-      "Rec": 1,
-      "Rush TD": 6,
-      "Rec yds": 0.1,
-      "Pass yds": 0.04,
-      "2P Pass": 2,
-      "2P Conv": 2,
-      "Rec TD": 6,
-      "Fumble": -2,
-      "Other TD": 6,
-      "Pass TD": 4,
-      "Int": -2
     },
-    "readable_name": "16DC2_auction",
-    "league_config_id": "16DC2",
-    "league_settings": {
-      "# of Teams": 10,
-      "draft_type": "auction",
-      "auction_minimum_bid": 1,
-      "# of weeks": 17,
-      "auction_budget": 100
-    },
-    "roster_settings": {
-      "RB": 2,
-      "QB": 1,
-      "TE": 1,
-      "Bench": 6,
-      "DST": 1,
-      "WR/RB/TE": 1,
-      "WR/TE": 0,
-      "WR": 2,
-      "WR/RB": 0,
-      "K": 1,
-      "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
-    "scoring_settings": {
-      "Rush yds": 0.1,
-      "Rec": 1,
-      "Rush TD": 6,
-      "Rec yds": 0.1,
-      "Pass yds": 0.04,
-      "2P Pass": 2,
-      "2P Conv": 2,
-      "Rec TD": 6,
-      "Fumble": -2,
-      "Other TD": 6,
-      "Pass TD": 4,
-      "Int": -2
-    },
-    "readable_name": "EF107_snake",
-    "league_config_id": "EF107",
-    "league_settings": {
-      "# of Teams": 12,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
-      "# of weeks": 15,
-      "auction_budget": 0
-    },
-    "roster_settings": {
-      "RB": 2,
-      "QB": 1,
-      "TE": 1,
-      "Bench": 6,
-      "DST": 1,
-      "WR/RB/TE": 1,
-      "WR/TE": 0,
-      "WR": 2,
-      "WR/RB": 0,
-      "K": 1,
-      "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
-    "scoring_settings": {
-      "Rush yds": 0.1,
-      "Rec": 0,
-      "Rush TD": 6,
-      "Rec yds": 0.1,
-      "Pass yds": 0.04,
-      "2P Pass": 2,
-      "2P Conv": 2,
-      "Rec TD": 6,
-      "Fumble": -2,
-      "Other TD": 6,
-      "Pass TD": 6,
-      "Int": -3
-    },
-    "readable_name": "A1091_snake",
-    "league_config_id": "A1091",
-    "league_settings": {
-      "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
-      "# of weeks": 17,
-      "auction_budget": 0
-    },
-    "roster_settings": {
-      "RB": 2,
-      "QB": 2,
-      "TE": 1,
-      "Bench": 5,
-      "DST": 1,
-      "WR/RB/TE": 1,
-      "WR/TE": 0,
-      "WR": 3,
-      "WR/RB": 0,
-      "K": 1,
-      "QB/WR/RB/TE": 0
-    }
-  },
-  {
-    "action": "submit_config",
     "scoring_settings": {
       "Rush yds": 0.1,
       "Rec": 0.5,
@@ -15091,15 +15324,96 @@
       "Other TD": 6,
       "Pass TD": 4,
       "Int": -2
+    }
+  },
+  {
+    "readable_name": "EF107_snake",
+    "league_config_id": "EF107",
+    "league_settings": {
+      "# of Teams": 12,
+      "# of weeks": 15,
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 6,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0
+    },
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 1,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -2
+    }
+  },
+  {
+    "readable_name": "A1091_snake",
+    "league_config_id": "A1091",
+    "league_settings": {
+      "# of Teams": 10,
+      "# of weeks": 17,
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
+    },
+    "roster_settings": {
+      "RB": 2,
+      "QB": 2,
+      "TE": 1,
+      "Bench": 5,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 0,
+      "WR": 3,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0
+    },
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 0,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 6,
+      "Int": -3
+    }
+  },
+  {
     "readable_name": "042D3_snake",
     "league_config_id": "042D3",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
     "roster_settings": {
       "RB": 2,
@@ -15113,17 +15427,33 @@
       "WR/RB": 0,
       "K": 1,
       "QB/WR/RB/TE": 1
+    },
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 0.5,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -2
     }
   },
   {
+    "readable_name": "B5C40_snake",
+    "league_config_id": "B5C40",
     "league_settings": {
       "# of Teams": 10,
-      "draft_type": "snake",
-      "auction_minimum_bid": 0,
       "# of weeks": 17,
-      "auction_budget": 0
+      "draft_type": "snake",
+      "auction_budget": 0,
+      "auction_minimum_bid": 0,
+      "auction_target_ratio": 1.0
     },
-    "submission_timestamp": 1754228131,
     "roster_settings": {
       "RB": 1,
       "QB": 1,
@@ -15134,6 +15464,43 @@
       "WR/TE": 0,
       "WR": 1,
       "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0
+    },
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 1,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -2
+    }
+  },
+  {
+    "league_settings": {
+      "# of Teams": 10,
+      "draft_type": "snake",
+      "auction_minimum_bid": 0,
+      "# of weeks": 17,
+      "auction_budget": 0
+    },
+    "submission_timestamp": 1754258177,
+    "roster_settings": {
+      "RB": 1,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 6,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 0,
+      "WR": 1,
+      "WR/RB": 1,
       "K": 1,
       "QB/WR/RB/TE": 0
     },
@@ -15152,7 +15519,7 @@
       "Pass TD": 4,
       "Int": -2
     },
-    "readable_name": "B5C40_snake",
-    "league_config_id": "B5C40"
+    "readable_name": "E42F6_snake",
+    "league_config_id": "E42F6"
   }
 ]
