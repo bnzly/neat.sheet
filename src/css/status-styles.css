@@ -1,0 +1,125 @@
+/* Status content layouts */
+.material-symbols-outlined.status_icons {
+    font-size: 1.25em;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 16;
+}
+
+
+.status-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--main-gray-25);
+    color: var(--main-gray);
+    padding: 1em;
+    border: var(--border-size) solid var(--main-gray);
+    border-top: none;
+    border-radius: 0px 0px var(--border-radius) var(--border-radius);
+    gap: 1em;
+    min-height: 60px;
+}
+
+.status-info {
+    flex: 1;
+}
+
+.status-title {
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.status-message {
+    font-size: 0.9em;
+}
+
+.status-actions {
+    flex-shrink: 0;
+}
+
+/* Status-specific background colors */
+.status-content.status-loading {
+    background: var(--main-gray-25);
+    border-color: var(--main-gray);
+    color: var(--main-gray);
+}
+
+.status-content.status-success {
+    background: var(--main-green-25);
+    border-color: var(--main-green);
+    color: var(--main-green);
+}
+
+.status-content.status-submit {
+    background: var(--main-purple-25);
+    border-color: var(--main-purple);
+    color: var(--main-purple);
+}
+
+.status-content.status-pending {
+    background: var(--main-teal-25);
+    border-color: var(--main-teal);
+    color: var(--main-teal);
+}
+
+.status-content.status-invalid {
+    background: var(--main-pink-25);
+    border-color: var(--main-pink);
+    color: var(--main-pink);
+}
+
+.status-content.status-error {
+    background: var(--main-red-25);
+    border-color: var(--main-red);
+    color: var(--main-red);
+}
+
+/* Status button styling */
+.status-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    padding: 0.65em 1.2em;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0, 1.41, 1, 0.97);
+    font-size: 1.1em;
+}
+
+.status-btn:hover {
+    transform: scale(1.025);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.btn-success {
+    background: var(--main-green);
+    color: white;
+}
+
+.btn-submit {
+    background: var(--main-purple);
+    color: white;
+}
+
+.btn-pending {
+    background: var(--main-teal);
+    color: white;
+}
+
+.btn-error {
+    background: var(--main-red);
+    color: white;
+}
+
+/* Status icons */
+.status_icons {
+    font-size: 1.2em;
+}
