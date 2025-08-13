@@ -20,7 +20,7 @@
     border-top: none;
     border-radius: 0px 0px var(--border-radius) var(--border-radius);
     gap: 1em;
-    min-height: 60px;
+    height: 65px;   
 }
 
 .status-info {
@@ -94,6 +94,20 @@
     font-size: 1.1em;
 }
 
+.status-btn.btn-pending {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    padding: 0.65em 0.65em;
+    margin-right: 2em;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0, 1.41, 1, 0.97);
+    font-size: 1.1em;
+}
+
 .status-btn:hover {
     transform: scale(1.025);
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
@@ -119,7 +133,70 @@
     color: white;
 }
 
-/* Status icons */
-.status_icons {
+/* Process Status UI (Unified Styling) */
+.status-pending-info .process-status-container {
+    display: flex;
+    padding-left: 3em;
+    align-items: center;
+}
+
+.process-step-container {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    padding-right: 0.5em;
+}
+
+.process-step {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2em;
+    height: 2em;
+    border: 2px solid var(--main-teal, #009688);
+    border-radius: 50%;
     font-size: 1.2em;
+    background: transparent;
+    color: var(--main-teal, #009688);
+}
+
+.process-step-active {
+    background: var(--main-teal, #009688);
+    color: #e9eeee;
+    border: 3px solid var(--main-teal, #009688);
+}
+
+.process-status-divider {
+    height: 2px;
+    width: 2em;
+    background: var(--main-teal, #009688);
+}
+
+.process-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+
+.process-text-bold {
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.process-text-highlight {
+    font-size: 0.8em;
+    background: var(--main-teal, #009688);
+    color: #e9eeee;
+    border: 2px solid var(--main-teal, #009688);
+    border-radius: 4px;
+    padding: 0.1em 0.3em;
+    text-align-last: justify;
+}
+
+.process-text-pending {
+    font-size: 0.8em;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 0.1em 0.3em;
+    text-align-last: justify;
 }

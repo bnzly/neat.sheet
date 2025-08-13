@@ -6,16 +6,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="src/css/status-styles.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 <style>
     @font-face {
       font-family: 'Instrument Sans';
-      src: url('/neat.sheet/src/fonts/InstrumentSans[wdth,wght].ttf') format('truetype');
+      src: url('src/fonts/InstrumentSans[wdth,wght].ttf') format('truetype');
     }
 
     @font-face {
       font-family: 'Avenir-Heavy';
-      src: url('/neat.sheet/src/fonts/Avenir-Heavy.ttf') format('truetype');
+      src: url('src/fonts/Avenir-Heavy.ttf') format('truetype');
     }
 
     .material-symbols-outlined.logo {
@@ -27,15 +28,20 @@
     }
 
     .material-symbols-outlined.info_mouseover {
-      color:var(--main-gray);
+      color: var(--main-gray);
       font-size: 1.2em;
       font-variation-settings:
       'FILL' 0,
       'wght' 600,
       'GRAD' 0,
-      'opsz' 16;
+      'opsz' 20;
       position: relative;
       cursor: help;
+      margin-right: 5px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.7;
     }
 
     .material-symbols-outlined.more_info {
@@ -46,23 +52,41 @@
       'opsz' 35;
     }
 
-    /* Minimal tooltip styles */
+    .material-symbols-outlined.subheader-icon {
+      font-variation-settings:
+      'FILL' 1,
+      'wght' 600,
+      'GRAD' 0,
+      'opsz' 20;
+      margin-right: 0.2em;
+      vertical-align: text-bottom;
+      color: var(--main-blue);
+      font-size: 1.1em;
+    }
+
+    /* Tooltip styles */
+    .tooltip-container {
+      position: relative;
+      display: inline-block;
+    }
+
     .info-tooltip {
       position: absolute;
       background: var(--main-gray);
       color: white;
       padding: 0.5em 0.75em;
       border-radius: var(--border-radius);
-      font-size: 0.8em;
+      font-size: 0.75em;
       font-weight: 500;
       white-space: nowrap;
       z-index: 1000;
       opacity: 0;
       pointer-events: none;
-      transition: opacity 0.2s ease;
-      bottom: calc(100% + 0.5em);
+      transition: opacity 0.5s cubic-bezier(0, 1.41, 1, 0.97);
+      bottom: 100%;
       left: 50%;
-      transform: translateX(-50%) scale(0.9);
+      transform: translateX(-51.4%);
+      margin-bottom: 5px;
       font-family: 'Instrument Sans', sans-serif;
     }
 
@@ -72,21 +96,12 @@
       top: 100%;
       left: 50%;
       transform: translateX(-50%);
-      border: 3px solid transparent;
+      border: 5px solid transparent;
       border-top-color: var(--main-gray);
     }
 
-    .material-symbols-outlined.info_mouseover:hover .info-tooltip {
+    .tooltip-container:hover .info-tooltip {
       opacity: 1;
-    }
-
-    .material-symbols-outlined.status_icons {
-      font-size: 1.25em;
-      font-variation-settings:
-      'FILL' 1,
-      'wght' 700,
-      'GRAD' 200,
-      'opsz' 16;
     }
 
     :root {
@@ -98,22 +113,32 @@
       --main-teal: #29767aff;
       --main-orange: #AB5800ff;
       --main-gray: #464646ff;
-      --main-green-25: #1f702e26;
-      --main-purple-25: #6a409126;
-      --main-blue-25: #1F61B326;
-      --main-red-25: #b8142726;
-      --main-pink-25: #BF116826;
-      --main-teal-25: #29767a26;
-      --main-orange-25: #AB580026;
-      --main-gray-25: #46464626;
-      --border-radius: 4px;
+      --main-green-25: #1f702e15;
+      --main-purple-25: #6a409115;
+      --main-blue-25: #1F61B315;
+      --main-blue-15: #1F61B315;
+      --main-red-25: #b8142715;
+      --main-pink-25: #BF116815;
+      --main-teal-25: #29767a15;
+      --main-orange-25: #AB580015;
+      --main-gray-25: #46464615;
+      --border-radius: 8px;
       --border-size: 2px;
       --border-color: rgba(0,0,0,0.2);
+      
+      /* Status colors */
+      --status-loading: var(--main-gray);
+      --status-success: var(--main-green);
+      --status-submit: var(--main-purple);
+      --status-pending: var(--main-teal);
+      --status-invalid: var(--main-pink);
+      --status-error: var(--main-red);
     }
 
     body { 
       background: #f9f9f9; 
-      color: #333; 
+      color: #333;
+      font-size: 16px; 
       font-family: 'Instrument Sans', sans-serif;
       font-weight: 475;
       font-feature-settings: 'ss09' 1, 'ss05' 1, 'ss08' 1, 'ss04' 1, 'ss10' 1;
@@ -123,7 +148,7 @@
     }
 
     .main-container {
-      max-width: 1250px;
+      max-width: 1267px;
       margin: auto;
       display: flex;
       flex-direction: column;
@@ -149,8 +174,42 @@
 
     .configs-container {
       flex: 1;
-      max-width: 500px;
+      max-width: 507px;
       box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* New unified settings container */
+    .unified-settings-container {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .settings-content {
+      display: flex;
+      flex-direction: column;
+      border: var(--border-size) solid var(--main-blue);
+      border-top: none;
+      border-radius: 0px 0px var(--border-radius) var(--border-radius);
+      gap: 0.5em;
+      padding: 0.5em;
+      background: var(--main-blue-25);
+    }
+
+    .settings-section {
+      overflow: hidden;
+    }
+
+    .settings-section-header {
+      padding: 0.3em 0.6em;
+      color: var(--main-blue);
+      font-weight: 700;
+      font-size: 1.25em;
+      letter-spacing: -0.6px;
+      font-family: 'Instrument Sans', sans-serif;
     }
 
     .settings-sections-container {
@@ -158,20 +217,12 @@
       gap: 1em;
     }
 
-    .league-settings-container,
-    .scoring-settings-container {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      min-width: 0;
-    }
-
-    .status-files-container {
+    .status-container {
       flex: 1;
       min-width: 340px;
       display: flex;
       flex-direction: column;
-      gap: 1em;
+      margin-bottom: 1em;
     }
 
     h2 {
@@ -184,7 +235,7 @@
       font-family: 'Instrument Sans', sans-serif;
       font-weight: 800;
       font-feature-settings: 'ss09' 1, 'ss05' 1, 'ss08' 1, 'ss04' 1;
-      font-size: 1.418em;
+      font-size: 1.563em;
       position: relative;
       display: flex;
       flex-wrap: nowrap;
@@ -197,98 +248,58 @@
       background: var(--main-gray);
     }
 
-    .configs-container h2 {
-      background: var(--main-blue);
-    }
-
-    .league-settings-container h2 {
-      background: var(--main-blue);
-    }
-
-    .scoring-settings-container h2 {
-      background: var(--main-pink);
-    }
-
-    .status-files-container h2 {
+    .status-container h2 {
       background: var(--main-gray);
     }
 
-    h3 {
-      color: var(--main-green);
-      font-family: 'Instrument Sans', sans-serif;
-      font-weight: 800;
-      font-feature-settings: 'ss09' 1, 'ss05' 1, 'ss08' 1, 'ss04' 1;
-      letter-spacing: -0.4px;
-      font-size: 1em;
-      margin-bottom: 0.3em;
-      margin-top: 1em;
+    .unified-settings-container h2 {
+      background: var(--main-blue);
     }
 
-    h3:first-of-type {
-      margin-top: 0;
-    }    .settings-grid {
-      flex:auto;
+    /* Settings grid unified styling */
+    .settings-grid {
       display: grid;
       justify-content: center;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       gap: 0.4em 0.8em;
-      background:var(--main-blue-25);
-      border: var(--border-size) solid var(--main-blue);
-      border-top: none;
-      border-radius: 0px 0px var(--border-radius) var(--border-radius);
-      padding: 0.2em 0.8em;
+      padding: 0.2em 0.4em;
       width: 100%;
       box-sizing: border-box;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     }
 
-    /* League Settings Grid - Custom styling */
-    .league-settings-grid {
-      background: var(--main-blue-25);
-      border-color: var(--main-blue);
-    }    /* Scoring Settings Grid - Custom styling */
-    .scoring-settings-grid {
-      background: var(--main-pink-25);
-      border-color: var(--main-pink);
-    }
-
-    /* Scoring settings container - green styling for all elements */
-    .scoring-settings-container .input-container label {
-      color: var(--main-pink);
-    }
-
-    .scoring-settings-container .number-input-wrapper {
-      border-color: var(--main-pink-25);
-    }
-
-    .scoring-settings-container .number-input-wrapper:focus-within {
-      border-color: var(--main-pink);
-    }
-
+    /* Unified styling for all input containers */
     .input-container {
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 0.2em;
-      padding: 0.15em;
+      padding: 0.2em;
       box-sizing: border-box;
       transition: all 0.2s ease;
     }
 
     .input-container label {
-      font-size: 0.95em;
       color: var(--main-blue);
       flex-shrink: 0;
       margin-bottom: 0;
       white-space: nowrap;
-      font-weight: 600;
+      font-size: 0.825em;
+      font-weight: 550;
       display: flex;
       align-items: center;
       min-width: auto;
-      max-width: 110px;
       overflow: hidden;
       text-overflow: ellipsis;
-      text-transform: uppercase;
+      letter-spacing: -0.3px;
+    }
+
+    .input-container .disabled-label {
+      color: #adafb3;
+    }
+
+    .input-right {
+      display: flex;
+      align-items: center;
     }
 
     .number-input-wrapper {
@@ -301,17 +312,13 @@
       overflow: hidden;
     }
 
-    .number-input-wrapper:hover {
-      transform: scale(1.05);
-      transition: all 0.2s ease-in-out;
-    }
-
     .number-input-wrapper:focus-within {
       border: var(--border-size) solid var(--main-blue);
+      transition: 0.5s cubic-bezier(0, 1.41, 1, 0.97);
     }
 
     .number-input-btn {
-      width: 20px;
+      width: 25px;
       height: 26px;
       border: none;
       background: white;
@@ -333,34 +340,6 @@
 
     .number-input-btn:active {
       background: #d0d0d0;
-    }
-
-    .input-container .disabled_input_button_with_info {
-      display: flex;
-      align-items: center;
-      gap: 0.3em;
-    }
-
-    .number-input-wrapper.disabled-btns {
-      background: #f7f7f7;
-      border: var(--border-size) solid #bbb !important;
-      color: #bbb;
-    }
-
-    .number-input-wrapper.disabled-btns:hover {
-      transform: scale(1.0);
-    }
-
-    .number-input-wrapper.disabled-btns .number-input-btn {
-      background: #f7f7f7 !important;
-      color: #bbb !important;
-      pointer-events: none;
-      opacity: 0.8;
-    }
-
-    .number-input-wrapper.disabled-btns input[type="number"] {
-      background: #f7f7f7;
-      color: #bbb;
     }
 
     .input-container input[type="number"] {
@@ -390,31 +369,6 @@
       appearance: textfield;
     }
 
-    .file-list {
-      max-height: 280px;
-      overflow-y: auto;
-      margin-bottom: 1em;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-    }
-
-    .file-list li a {
-      color: var(--main-blue);
-      text-decoration: none;
-      font-weight: 500;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: flex;
-      max-width: 100%;
-      align-items: center;
-    }
-
-    .file-list li:hover {
-      background: var(--row-alt-color);
-    }
-
     .how-to-info {
       flex: auto;
       background: var(--main-gray-25);
@@ -425,14 +379,10 @@
       font-family: 'Instrument Sans', sans-serif;
       font-weight: 475;
       font-feature-settings: 'ss09' 1, 'ss05' 1, 'ss08' 1, 'ss04' 1, 'ss10' 1;
-      font-size: 1.1em;
       color: var(--main-gray);
       line-height: 2;
       letter-spacing: -0.3px;
-    }
-
-    .how-to-info {
-      position: relative; /* Add this line */
+      position: relative;
     }
 
     .how-to-info ul {
@@ -440,19 +390,11 @@
       margin-bottom: 3em;
     }
 
-    /* Color-coded text in how-to instructions */
-    .how-to-info .league-text {
-      color: white;
-      background: var(--main-blue);
-      border-radius: var(--border-radius);
-      padding: 0.275em 0.5em;
-      letter-spacing: -0.6px;
-      font-weight: 700;
-    }
-
+    .how-to-info .league-text,
+    .how-to-info .roster-text,
     .how-to-info .scoring-text {
       color: white;
-      background: var(--main-pink);
+      background: var(--main-blue);
       border-radius: var(--border-radius);
       padding: 0.275em 0.5em;
       letter-spacing: -0.6px;
@@ -468,7 +410,7 @@
       font-weight: 700;
     }
 
-    /* Footer Styles - mirrored from header-branding-container */
+    /* Footer Styles */
     .footer {
       display: flex;
       align-items: center;
@@ -492,12 +434,12 @@
     .footer-btn:hover {
       opacity: 0.9;
       transform: scale(1.05);
-      transition: all 0.2s ease;
+      transition: all 0.2s cubic-bezier(0, 1.41, 1, 0.97);
     }
 
     .footer-btn img {
-      width: 30px;
-      height: 30px;
+      width: 35px;
+      height: 35px;
       flex-shrink: 0;
     }
 
@@ -539,60 +481,157 @@
       letter-spacing: -1.1px;
     }    
     
-    .scoring-group {
-      padding: 0.5em 0 1em 0;
-      border-bottom: var(--border-size) solid var(--main-blue);
+    /* Simplified settings group */
+    .settings-group {
+      padding: 0em 0 0.3em 0;
+      border-bottom: var(--border-size) solid var(--main-blue-15);
       grid-column: 1 / -1;
     }
 
-    .scoring-group:last-child {
+    .settings-group:last-child {
       border-bottom: none;
-    }
-
-    .scoring-group-title {
-      font-size: 1em;
-      font-weight: 700;
-      color: var(--main-blue);
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    /* Scoring groups within scoring settings - use green colors */
-    .scoring-settings-container .scoring-group {
-      border-bottom-color: var(--main-pink);
-    }
-
-    .scoring-settings-container .scoring-group-title {
-      color: var(--main-pink);
-    }
-
-    .league-group {
-      padding: 0.5em 0 1em 0;
-      border-bottom: var(--border-size) solid var(--main-blue);
-      grid-column: 1 / -1;
-    }
-
-    .league-group:last-child {
-      border-bottom: none;
-    }
-
-    .league-group-title {
-      font-size: 1em;
-      font-weight: 700;
-      color: var(--main-blue);
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
+      margin-bottom: 0.3em;
     }
 
     .loading-spinner {
       display: inline-block;
-      width: 14px;
-      height: 14px;
+      width: 16px;
+      height: 16px;
       border: 5px solid var(--border-color);
       border-radius: 50%;
-      border-top-color: var(--main-gray);
-      animation: spin 1.5s ease-in-out infinite;
+      border-top-color: var(--status-loading);
+      animation: spin 1.5s cubic-bezier(0.78, 0.01, 0.51, 0.99) infinite;
       margin-right: 0.2em;
+    }
+
+    /* Status-specific styles */
+    .status-loading { color: var(--status-loading); }
+    .status-success { color: var(--status-success); }
+    .status-submit { color: var(--status-submit); }
+    .status-pending { color: var(--status-pending); }
+    .status-invalid { color: var(--status-orange); }
+    .status-error { color: var(--status-error); }
+
+    /* Radio button styles */
+    .radio-tabs {
+      display: flex;
+      position: relative;
+      background-color: transparent;
+      padding: 0;
+      border-radius: 4px;
+      gap: 0.25em;
+    }
+
+    .radio-tabs * {
+      z-index: 2;
+    }
+
+    .radio-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+      border: var(--border-size) solid var(--main-blue-25);
+      border-radius: var(--border-radius);
+      background: white;
+    }
+
+    .radio-container label{
+      font-weight: 550;
+      color: #333;
+      width: 62.37px; /* makes radio options same size as number inputs */
+    }
+
+    .radio-container input[type="radio"] {
+      display: none;
+    }
+
+    .radio-tab {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 26px;
+      padding: 0 1em;
+      min-width: 60px;
+      font-size: 0.8rem;
+      color: var(--main-blue);
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+
+    .radio-container input[type="radio"]:checked + label {
+      transition: 1s cubic-bezier(0, 1.41, 1, 0.97);
+      color: white;
+      background: var(--main-blue);
+    }
+
+    /* Disabled input styling */
+    .number-input-wrapper.disabled {
+      background: #f0f0f0;
+      border: var(--border-size) solid #ccc;
+      opacity: 0.7;
+      box-shadow: none;
+    }
+
+    .number-input-wrapper.disabled .number-input-btn {
+      cursor: default;
+      background: #f0f0f0;
+      color: #999;
+    }
+
+    .number-input-wrapper.disabled input[type="number"] {
+      background: #f0f0f0;
+      color: #999;
+    }
+
+    /* Disabled radio container styling */
+    .radio-container.disabled {
+      background: #f0f0f0;
+      border: var(--border-size) solid #ccc;
+      opacity: 0.7;
+      box-shadow: none;
+    }
+
+    .radio-container.disabled label {
+      color: #999;
+      cursor: default;
+    }
+
+    .radio-container.disabled input[type="radio"]:checked + label {
+      background: #ccc;
+      color: #666;
+    }
+
+    .tooltip-container.disabled .info-tooltip {
+      display: none !important;
+    }
+    .tooltip-container.disabled .info_mouseover {
+      cursor: default;
+      opacity: 0.4;
+    }
+
+    /* Auction fields container */
+    .auction-fields {
+      transition: opacity 1s cubic-bezier(0, 1.41, 1, 0.97);
+    }
+
+    /* Input label styles */
+    .input-label {
+      font-size: 0.95em;
+      color: var(--main-blue);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      margin-bottom: 0.5em;
+    }
+
+    .instructions{
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
     }
 
     @media (max-width: 1050px) {
@@ -642,7 +681,8 @@
 </head>
 <body>
   <!-- Main Container -->
-  <div class="main-container">
+  <div class="main-container" style="  transform: scale(0.9);
+  transform-origin: top center;">
     
     <!-- Header Branding -->
     <div class="header-branding-container">
@@ -657,292 +697,349 @@
     <!-- Config + Status + File Combo Container -->
     <div class="config-status-file-combo">
       
-      <!-- Configs Container -->
+      <!-- Left Column Container -->
       <div class="configs-container">
-        <!-- Status + Files Container -->
-        <div class="status-files-container">
-          
-        <div id="file-container">
+        
+        <!-- Status Container -->
+        <div class="status-container">
           <h2 id="status-heading">Status</h2>
-          <div class="file-list" id="file-list">
-            <div style="
-              display: flex; 
-              align-items: center; 
-              justify-content: space-between; 
-              background: var(--main-gray-25); 
-              color: var(--main-gray); 
-              padding: 1em; 
-              border: var(--border-size, 2px) solid var(--main-gray);
-              border-top: none;
-              border-radius: 0px 0px var(--border-radius) var(--border-radius); 
-              gap: 2em;
-              height: 60px;
-            ">
-              <div style="flex: 1 1 0%;">
-                <div style="display: flex; align-items: center; font-weight: 700; margin-bottom: 0.5em; gap: 0.2em;">
-                  </span>
-                    Loading...
-                  </span>
+          <div class="status-content">
+            <div style="flex: 1 1 0%;">
+              <div style="display: flex; align-items: center; font-weight: 700; margin-bottom: 0.5em; gap: 0.2em;">
+                <span class="loading-spinner"></span>
+                <span class="status-loading">Processing...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Unified Settings Container -->
+        <div class="unified-settings-container">
+          <h2>Configuration</h2>
+          <div class="settings-content">
+            
+            <!-- League Settings Section -->
+            <div class="settings-section" style="border-bottom: var(--border-size) solid var(--main-blue-25);">
+              <div class="settings-section-header"><span class="material-symbols-outlined subheader-icon">sports_football</span>League</div>
+              <div class="settings-section-content">
+                <div class="settings-grid">
+                  <div class="settings-group">
+                    <!-- Teams Input -->
+                    <div class="input-container">
+                      <label for="teams"># of Teams</label>
+                      <div class="number-input-wrapper">
+                        <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('teams')">−</button>
+                        <input type="number" id="teams" name="teams" value="10" min="8" max="16" required>
+                        <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('teams')">+</button>
+                      </div>
+                    </div>
+                    
+                    <!-- Draft Type Radio Buttons -->
+                    <div class="input-container">
+                      <label>Draft Type</label>
+                      <div class="radio-container">
+                        <input type="radio" name="draft-type" id="radio-snake" checked onchange="toggleAuctionFields()">
+                        <label for="radio-snake" class="radio-tab">Snake</label>
+                        <input type="radio" name="draft-type" id="radio-auction" onchange="toggleAuctionFields()">
+                        <label for="radio-auction" class="radio-tab">Auction</label>
+                      </div>
+                    </div>
+                    
+                    <!-- Auction Fields - Always visible but disabled when Snake is selected -->
+                    <div class="auction-fields" id="auction-fields">
+                      <div class="input-container">
+                        <label for="auction-budget">Auction Budget ($)</label>
+                        <div class="number-input-wrapper disabled">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('auction-budget')" disabled>−</button>
+                          <input type="number" id="auction-budget" name="auction-budget" value="100" min="1" max="2000" disabled>
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('auction-budget')" disabled>+</button>
+                        </div>
+                      </div>
+                      <div class="input-container">
+                      <label for="roster-priorities">Roster Preference</label>
+                      <div style="display: flex; align-items: center;">
+                        <div class="tooltip-container roster-pref-tooltip" id="roster-pref-tooltip">
+                          <span class="material-symbols-outlined info_mouseover">info</span>
+                          <div class="info-tooltip" style="transform: translateX(-50.7%);">
+                            Adjusts auction value variance to favor bench or starters
+                          </div>
+                        </div>
+                        <div class="radio-container disabled">
+                          <input type="radio" name="roster-priorities" id="radio-bench" disabled>
+                          <label for="radio-bench" class="radio-tab">Deep</label>
+                          <input type="radio" name="roster-priorities" id="radio-balanced" checked disabled>
+                          <label for="radio-balanced" class="radio-tab">Balanced</label>
+                          <input type="radio" name="roster-priorities" id="radio-starters" disabled>
+                          <label for="radio-starters" class="radio-tab">Top-Heavy</label>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div style="font-size: 0.95em;">
-                  
+              </div>
+            </div>
+            
+            <!-- Roster & Scoring Settings Container -->
+            <div class="settings-sections-container">
+              <!-- Roster Settings -->
+              <div class="settings-section" style="flex: 1;">
+                <div class="settings-section-header"><span class="material-symbols-outlined subheader-icon">patient_list</span>Roster</div>
+                <div class="settings-section-content">
+                  <div class="settings-grid">
+                    <!-- CORE POSITIONS GROUP -->
+                    <div class="settings-group">
+                      <div class="input-container"><label for="qb">Quarterback (QB)</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('qb')">−</button>
+                          <input type="number" id="qb" name="qb" value="1" min="0" max="4">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('qb')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="rb">Running Back (RB)</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('rb')">−</button>
+                          <input type="number" id="rb" name="rb" value="2" min="0" max="8">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('rb')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="wr">Wide Receiver (WR)</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('wr')">−</button>
+                          <input type="number" id="wr" name="wr" value="2" min="0" max="8">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('wr')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="te">Tight End (TE)</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('te')">−</button>
+                          <input type="number" id="te" name="te" value="1" min="0" max="4">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('te')">+</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- FLEX POSITIONS GROUP -->
+                    <div class="settings-group">
+                      <div class="input-container"><label for="wrrb">WR • RB</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('wrrb')">−</button>
+                          <input type="number" id="wrrb" name="wrrb" value="0" min="0" max="4">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('wrrb')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="wrte">WR • TE</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('wrte')">−</button>
+                          <input type="number" id="wrte" name="wrte" value="0" min="0" max="4">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('wrte')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="wrrbte">WR • RB • TE</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('wrrbte')">−</button>
+                          <input type="number" id="wrrbte" name="wrrbte" value="1" min="0" max="4">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('wrrbte')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="qbwrrbte">QB • WR • RB • TE</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('qbwrrbte')">−</button>
+                          <input type="number" id="qbwrrbte" name="qbwrrbte" value="0" min="0" max="4">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('qbwrrbte')">+</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- OTHER POSITIONS GROUP -->
+                    <div class="settings-group">
+                      <div class="input-container"><label for="k">Kicker</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('k')">−</button>
+                          <input type="number" id="k" name="k" value="1" min="0" max="2">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('k')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="dst">Defense • ST</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('dst')">−</button>
+                          <input type="number" id="dst" name="dst" value="1" min="0" max="2">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('dst')">+</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="settings-group">
+                      <div class="input-container"><label for="bench">Bench</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('bench')">−</button>
+                          <input type="number" id="bench" name="bench" value="6" min="0" max="20">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('bench')">+</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               
-            </div>
-          </div>
-          <div id="file-picker-status"></div>
-        </div>
-          
-        </div>
-        <div id="config-form" autocomplete="off">
-          
-          <div class="settings-sections-container">
-            <!-- League Settings -->
-            <div class="league-settings-container">
-              <h2>League</h2>
-              <div class="settings-grid league-settings-grid">
-                <!-- LEAGUE BASICS GROUP -->
-                <div class="league-group">
-                  <div class="league-group-title"></div>
-                  <div class="input-container"><label for="teams"># of Teams</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('teams')">−</button>
-                      <input type="number" id="teams" name="teams" value="10" min="8" max="16" required>
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('teams')">+</button>
+              <!-- Scoring Settings -->
+              <div class="settings-section" style="flex: 1;">
+                <div class="settings-section-header"><span class="material-symbols-outlined subheader-icon">tune</span>Scoring</div>
+                <div class="settings-section-content">
+                  <div class="settings-grid">
+                    <!-- Reception GROUP -->
+                    <div class="settings-group">
+                      <div class="input-container"><label for="rec">Reception</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('rec')">−</button>
+                          <input type="number" id="rec" name="rec" value="1" min="0" step="0.5">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('rec')">+</button>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="input-container"><label for="weeks"># of weeks</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('weeks')">−</button>
-                      <input type="number" id="weeks" name="weeks" value="17" min="15" max="18" required>
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('weeks')">+</button>
+                    <!-- Yards GROUP -->
+                    <div class="settings-group">
+                      <div class="input-container">
+                        <label for="passyds">Pass Yard</label>
+                        <div class="input-right">
+                          <div class="tooltip-container">
+                            <span class="material-symbols-outlined info_mouseover">info</span>
+                            <div class="info-tooltip">0.04 points = 1 point per 25 yards</div>
+                          </div>
+                          <div class="number-input-wrapper">
+                            <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('passyds')">−</button>
+                            <input type="number" id="passyds" name="passyds" value="0.04" min="0" step="0.01">
+                            <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('passyds')">+</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="input-container">
+                        <label for="rushyds">Rush Yard</label>
+                        <div class="input-right">
+                          <div class="tooltip-container">
+                            <span class="material-symbols-outlined info_mouseover">info</span>
+                            <div class="info-tooltip">0.1 points = 1 point per 10 yards</div>
+                          </div>
+                          <div class="number-input-wrapper">
+                            <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('rushyds')">−</button>
+                            <input type="number" id="rushyds" name="rushyds" value="0.1" min="0" step="0.1">
+                            <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('rushyds')">+</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="input-container">
+                        <label for="recyds">Rec. Yard</label>
+                        <div class="input-right">
+                          <div class="tooltip-container">
+                            <span class="material-symbols-outlined info_mouseover">info</span>
+                            <div class="info-tooltip">0.1 points = 1 point per 10 yards</div>
+                          </div>
+                          <div class="number-input-wrapper">
+                            <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('recyds')">−</button>
+                            <input type="number" id="recyds" name="recyds" value="0.1" min="0" step="0.1">
+                            <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('recyds')">+</button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <!-- CORE POSITIONS GROUP -->
-                <div class="league-group">
-                  <div class="league-group-title"></div>
-                  <div class="input-container"><label for="qb">QB</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('qb')">−</button>
-                      <input type="number" id="qb" name="qb" value="1" min="0" max="4">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('qb')">+</button>
+                    <!-- TDS GROUP -->
+                    <div class="settings-group">
+                      <div class="input-container"><label for="passtd">Pass TD</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('passtd')">−</button>
+                          <input type="number" id="passtd" name="passtd" value="4" min="0" step="1">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('passtd')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="rushtd">Rush TD</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('rushtd')">−</button>
+                          <input type="number" id="rushtd" name="rushtd" value="6" min="0" step="1">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('rushtd')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="rectd">Rec. TD</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('rectd')">−</button>
+                          <input type="number" id="rectd" name="rectd" value="6" min="0" step="1">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('rectd')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="othertd">Other TD</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('othertd')">−</button>
+                          <input type="number" id="othertd" name="othertd" value="6" min="0" step="1">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('othertd')">+</button>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="input-container"><label for="rb">RB</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('rb')">−</button>
-                      <input type="number" id="rb" name="rb" value="2" min="0" max="8">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('rb')">+</button>
+                    <!-- MISC GROUP -->
+                    <div class="settings-group">
+                      <div class="input-container"><label for="int">Interception</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('int')">−</button>
+                          <input type="number" id="int" name="int" value="-2" min="-4" step="1">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('int')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="fumble">Fumble</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('fumble')">−</button>
+                          <input type="number" id="fumble" name="fumble" value="-2" min="-4" step="1">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('fumble')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="conv2p">2P Conversion</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('conv2p')">−</button>
+                          <input type="number" id="conv2p" name="conv2p" value="2" min="0" step="1">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('conv2p')">+</button>
+                        </div>
+                      </div>
+                      <div class="input-container"><label for="pass2p">2P Pass</label>
+                        <div class="number-input-wrapper">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('pass2p')">−</button>
+                          <input type="number" id="pass2p" name="pass2p" value="2" min="0" step="1">
+                          <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('pass2p')">+</button>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="input-container"><label for="wr">WR</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('wr')">−</button>
-                      <input type="number" id="wr" name="wr" value="2" min="0" max="8">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('wr')">+</button>
-                    </div>
-                  </div>
-                  <div class="input-container"><label for="te">TE</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('te')">−</button>
-                      <input type="number" id="te" name="te" value="1" min="0" max="4">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('te')">+</button>
-                    </div>
-                  </div>
-                </div>
-                <!-- FLEX POSITIONS GROUP -->
-                <div class="league-group">
-                  <div class="league-group-title"></div>
-                  <div class="input-container"><label for="wrrb">WR/RB</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('wrrb')">−</button>
-                      <input type="number" id="wrrb" name="wrrb" value="0" min="0" max="4">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('wrrb')">+</button>
-                    </div>
-                  </div>
-                  <div class="input-container"><label for="wrte">WR/TE</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('wrte')">−</button>
-                      <input type="number" id="wrte" name="wrte" value="0" min="0" max="4">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('wrte')">+</button>
-                    </div>
-                  </div>
-                  <div class="input-container"><label for="wrrbte">WR/RB/TE</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('wrrbte')">−</button>
-                      <input type="number" id="wrrbte" name="wrrbte" value="1" min="0" max="4">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('wrrbte')">+</button>
-                    </div>
-                  </div>
-                  <div class="input-container"><label for="qbwrrbte">QB/WR/RB/TE</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('qbwrrbte')">−</button>
-                      <input type="number" id="qbwrrbte" name="qbwrrbte" value="0" min="0" max="4">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('qbwrrbte')">+</button>
-                    </div>
-                  </div>
-                </div>
-                <!-- OTHER POSITIONS GROUP -->
-                <div class="league-group">
-                  <div class="league-group-title"></div>
-                  <div class="input-container"><label for="bench">Bench</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('bench')">−</button>
-                      <input type="number" id="bench" name="bench" value="6" min="0" max="20">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('bench')">+</button>
-                    </div>
-                  </div>
-                  <div class="input-container"><label for="k">Kicker</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('k')">−</button>
-                      <input type="number" id="k" name="k" value="1" min="0" max="2">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('k')">+</button>
-                    </div>
-                  </div>
-                  <div class="input-container"><label for="dst">Defense/ST</label>
-                    <div class="number-input-wrapper">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('dst')">−</button>
-                      <input type="number" id="dst" name="dst" value="1" min="0" max="2">
-                      <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('dst')">+</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-              <div class="scoring-settings-container">
-            <h2>Scoring</h2>
-            <div class="settings-grid scoring-settings-grid">
-              <!-- yard GROUP -->
-              <div class="scoring-group">
-                <div class="scoring-group-title"></div>
-                <div class="input-container"><label for="rec">Reception</label>
-                  <div class="number-input-wrapper">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('rec')">−</button>
-                    <input type="number" id="rec" name="rec" value="1" min="0" step="0.5">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('rec')">+</button>
-                  </div>
-                </div>
-              </div>
-              <div class="scoring-group">
-                <div class="scoring-group-title"></div>
-                <div class="input-container"><label for="passyds">Pass yard</label>
-                  <div class="number-input-wrapper">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('passyds')">−</button>
-                    <input type="number" id="passyds" name="passyds" value="0.04" min="0" step="0.01">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('passyds')">+</button>
-                  </div>
-                </div>
-                <div class="input-container"><label for="rushyds">Rush yard</label>
-                  <div class="number-input-wrapper">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('rushyds')">−</button>
-                    <input type="number" id="rushyds" name="rushyds" value="0.1" min="0" step="0.1">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('rushyds')">+</button>
-                  </div>
-                </div>
-                <div class="input-container"><label for="recyds">Rec. yard</label>
-                  <div class="number-input-wrapper">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('recyds')">−</button>
-                    <input type="number" id="recyds" name="recyds" value="0.1" min="0" step="0.1">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('recyds')">+</button>
-                  </div>
-                </div>
-              </div>
-              <!-- TDS GROUP -->
-              <div class="scoring-group">
-                <div class="scoring-group-title"></div>
-                <div class="input-container"><label for="passtd">Pass TD</label>
-                  <div class="number-input-wrapper">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('passtd')">−</button>
-                    <input type="number" id="passtd" name="passtd" value="4" min="0" step="1">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('passtd')">+</button>
-                  </div>
-                </div>
-                <div class="input-container"><label for="rushtd">Rush TD</label>
-                  <div class="number-input-wrapper">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('rushtd')">−</button>
-                    <input type="number" id="rushtd" name="rushtd" value="6" min="0" step="1">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('rushtd')">+</button>
-                  </div>
-                </div>
-                <div class="input-container"><label for="rectd">Rec. TD</label>
-                  <div class="number-input-wrapper">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('rectd')">−</button>
-                    <input type="number" id="rectd" name="rectd" value="6" min="0" step="1">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('rectd')">+</button>
-                  </div>
-                </div>
-                <div class="input-container"><label for="othertd">Other TD</label>
-                  <div class="number-input-wrapper">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('othertd')">−</button>
-                    <input type="number" id="othertd" name="othertd" value="6" min="0" step="1">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('othertd')">+</button>
-                  </div>
-                </div>
-              </div>
-              <!-- MISC GROUP -->
-              <div class="scoring-group">
-                <div class="scoring-group-title"></div>
-                <div class="input-container"><label for="int">Int.</label>
-                  <div class="number-input-wrapper">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('int')">−</button>
-                    <input type="number" id="int" name="int" value="-2" min="-4" step="1">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('int')">+</button>
-                  </div>
-                </div>
-                <div class="input-container"><label for="fumble">Fumble</label>
-                  <div class="number-input-wrapper">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('fumble')">−</button>
-                    <input type="number" id="fumble" name="fumble" value="-2" min="-4" step="1">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('fumble')">+</button>
-                  </div>
-                </div>
-                <div class="input-container"><label for="conv2p">2P Conv.</label>
-                  <div class="number-input-wrapper">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('conv2p')">−</button>
-                    <input type="number" id="conv2p" name="conv2p" value="2" min="0" step="1">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('conv2p')">+</button>
-                  </div>
-                </div>
-                <div class="input-container"><label for="pass2p">2P Pass</label>
-                  <div class="number-input-wrapper">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="decrementInput('pass2p')">−</button>
-                    <input type="number" id="pass2p" name="pass2p" value="2" min="0" step="1">
-                    <button type="button" class="number-input-btn" tabindex="-1" onclick="incrementInput('pass2p')">+</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
-          </div> <!-- Close settings-sections-container -->
-          
         </div>
       </div>
       
-        <!-- How To Container -->
+      <!-- How To Container -->
       <div class="how-to-container">
-        <h2>How to Use</h2>
+        <h2>About  &  How To</h2>
         <div class="how-to-info">
-          <ul>
-            <ul>
-              <strong>Configure League Settings:</strong><br>
-              Use the <span class="league-text">League</span> panel to select your league size, number of teams, weeks, and roster positions. Adjust each value using the +/– buttons or by typing directly into the field.
-            </ul>
-            <ul>
-              <strong>Customize Scoring Rules:</strong><br>
-              In the <span class="scoring-text">Scoring</span> panel, set how points are awarded for any given stat. Modify any value to match your league's rules.
-            </ul>
-            <ul>
-              <strong>Check Status & Get Your Draft Sheet:</strong><br>
-              As you change settings, the <span class="status-text">Status</span> area above the input form will automatically check if a draft sheet exists for your configuration. If available, a download link will appear. If not, you'll be prompted to submit your configuration.
-            </ul>
-          </ul>
+          <div class="abstract" style="border-bottom: var(--border-size) solid var(--main-gray-25); padding-bottom: 2em; margin-bottom: 2em;">
+            <p>
+              <span class="branding-container" style="display: inline-flex; align-items: baseline;">
+                <span class="branding-type-container" style="font-size: 1em;">
+                  <span class="branding-type-first">neat.</span><span class="branding-type-second">sheet</span>
+                </span>
+              </span>
+              is a tool for generating simple, yet informative, made-to-print Fantasy Football draft sheets tailored to your league's unique settings. Simply configure your options below and receive a downloadable PDF draft sheet to help you make the most of draft day.
+            </p>
+          </div>
+          
+          <div class="instructions">
+            <p><strong>Configure Settings:</strong><br>
+            Use the <span class="league-text">Configuration</span> panel to customize all aspects of your fantasy football draft sheet. Adjust team count, draft type, roster positions, and scoring rules to match your exact league format.</p>
+            
+            <p><strong>Check Status:</strong><br>
+            The <span class="status-text">Status</span> panel automatically updates to reflect sheet availability as you enter information. If available, download immediately. If not, you will be prompted to submit your configuration and a sheet will be generated within minutes.</p>
+
+            <p><strong>Daily Updates:</strong><br>
+            Once submitted, your draft sheet will be regenerated daily with the latest player projections and injury statuses, ensuring current information through draft day.</p>
+          </div>
         </div>
       </div>
     </div>
-        <!-- Footer -->
+    
+    <!-- Footer -->
     <footer class="footer">
       <div class="footer-buttons">
         <a href="https://coff.ee/bnzly" target="_blank" class="footer-btn coffee-btn" title="Buy Me a Coffee">
@@ -954,7 +1051,6 @@
       </div>
     </footer>
   </div>
-
   <script src="src/js/main.obf.js"></script>
 </body>
 </html>

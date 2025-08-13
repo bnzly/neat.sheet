@@ -31,13 +31,12 @@ neat.sheet uses the latest FantasyPROs projections, ESPN injury reports, and var
    - After a few minutes, refresh the page or re-enter your settings to check if your PDF is ready.
 
 5. **Automatic Daily Updates**
-    - Once submitted, your draft sheet will be regenerated daily with the latest player projections and injury statuses—**except for Auction draft sheets, which are not updated daily**.
-   - You can always revisit the site and re-enter your settings to get the latest version.
+    - Once submitted, your draft sheet will be regenerated daily with the latest player projections and injury statuses.
 
 ## What Happens Behind the Scenes
 - When you submit your configuration, it’s saved and queued for PDF generation.
 - Once generated, your draft sheet is stored and will be instantly available for anyone with the same settings in the future.
-- Submitted configurations will continue to be regenerated daily with updated projections and injury statuses.
+- Active configurations will continue to be regenerated daily with updated projections and injury statuses.
 - All sheets are organized by a unique ID based on your league and scoring settings.
 
 ---
@@ -45,10 +44,10 @@ neat.sheet uses the latest FantasyPROs projections, ESPN injury reports, and var
 ## FAQ
 
 **Q: Is my data saved or shared?**  
-A: Only your league settings and scoring rules are saved, for the purpose of generating and storing the draft sheet. No personal or identifying information is collected.
+A: The only data saved is your league configuration and some simple download metrics. No personal or identifying information is collected.
 
 **Q: How long does it take to get a new sheet?**  
-A: Usually just a few minutes. If it takes longer, try refreshing the page after a short wait.
+A: Usually just a couple of minutes. If it takes longer, try refreshing the page after a short wait.
 
 **Q: Can I use this for any league?**  
 A: Yes! As long as your league’s settings fit the available options, you can generate a sheet for it.
