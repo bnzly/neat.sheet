@@ -6510,5 +6510,128 @@
     },
     "readable_name": "62C2A_snake",
     "league_config_id": "62C2A"
+  },
+  {
+    "league_settings": {
+      "# of Teams": 10,
+      "draft_type": "auction",
+      "auction_minimum_bid": 1,
+      "auction_target_ratio": 3,
+      "# of weeks": 17,
+      "auction_budget": 200
+    },
+    "submission_timestamp": 1755180472,
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 6,
+      "DST": 0,
+      "WR/RB/TE": 2,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 0,
+      "QB/WR/RB/TE": 0
+    },
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0,
+      "Rec": 0,
+      "Rush TD": 6,
+      "Rec yds": 0,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -1,
+      "Other TD": 6,
+      "Pass TD": 5,
+      "Int": -1
+    },
+    "readable_name": "36B9E_auction",
+    "league_config_id": "36B9E"
+  },
+  {
+    "league_settings": {
+      "# of Teams": 12,
+      "draft_type": "auction",
+      "auction_minimum_bid": 1,
+      "auction_target_ratio": 5,
+      "# of weeks": 17,
+      "auction_budget": 200
+    },
+    "submission_timestamp": 1755180486,
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 7,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 1
+    },
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 1,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -2
+    },
+    "readable_name": "7D25E_auction",
+    "league_config_id": "7D25E"
+  },
+  {
+    "league_settings": {
+      "# of Teams": 10,
+      "draft_type": "auction",
+      "auction_minimum_bid": 1,
+      "auction_target_ratio": 5,
+      "# of weeks": 17,
+      "auction_budget": 200
+    },
+    "submission_timestamp": 1755180475,
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 7,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 0,
+      "WR": 3,
+      "WR/RB": 0,
+      "K": 0,
+      "QB/WR/RB/TE": 1
+    },
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 0.5,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -2
+    },
+    "readable_name": "B2F07_auction",
+    "league_config_id": "B2F07"
   }
 ]
