@@ -7863,5 +7863,292 @@
     },
     "readable_name": "5EFDA_snake",
     "league_config_id": "5EFDA"
+  },
+  {
+    "league_settings": {
+      "# of Teams": 10,
+      "draft_type": "snake",
+      "auction_minimum_bid": 1,
+      "auction_target_ratio": 3,
+      "# of weeks": 17,
+      "auction_budget": 100
+    },
+    "submission_timestamp": 1755182594,
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 7,
+      "DST": 0,
+      "WR/RB/TE": 3,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 0,
+      "QB/WR/RB/TE": 1
+    },
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 1,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -2
+    },
+    "readable_name": "67E52_snake",
+    "league_config_id": "67E52"
+  },
+  {
+    "league_settings": {
+      "# of Teams": 14,
+      "draft_type": "snake",
+      "auction_minimum_bid": 1,
+      "auction_target_ratio": 3,
+      "# of weeks": 17,
+      "auction_budget": 100
+    },
+    "submission_timestamp": 1755182577,
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 5,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0
+    },
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 0.5,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 5,
+      "Int": -2
+    },
+    "readable_name": "1F5A6_snake",
+    "league_config_id": "1F5A6"
+  },
+  {
+    "league_settings": {
+      "# of Teams": 12,
+      "draft_type": "auction",
+      "auction_minimum_bid": 1,
+      "auction_target_ratio": 3,
+      "# of weeks": 17,
+      "auction_budget": 200
+    },
+    "submission_timestamp": 1755182540,
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 5,
+      "DST": 0,
+      "WR/RB/TE": 2,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 0,
+      "QB/WR/RB/TE": 1
+    },
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 0.5,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -2
+    },
+    "readable_name": "8634A_auction",
+    "league_config_id": "8634A"
+  },
+  {
+    "league_settings": {
+      "# of Teams": 12,
+      "draft_type": "auction",
+      "auction_minimum_bid": 1,
+      "auction_target_ratio": 5,
+      "# of weeks": 17,
+      "auction_budget": 200
+    },
+    "submission_timestamp": 1755182590,
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 5,
+      "DST": 0,
+      "WR/RB/TE": 2,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 0,
+      "QB/WR/RB/TE": 1
+    },
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 0.5,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -2
+    },
+    "readable_name": "77B53_auction",
+    "league_config_id": "77B53"
+  },
+  {
+    "league_settings": {
+      "# of Teams": 14,
+      "draft_type": "snake",
+      "auction_minimum_bid": 1,
+      "auction_target_ratio": 3,
+      "# of weeks": 17,
+      "auction_budget": 100
+    },
+    "submission_timestamp": 1755182643,
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 5,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 0,
+      "QB/WR/RB/TE": 0
+    },
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 1,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 6,
+      "Int": -3
+    },
+    "readable_name": "CDE06_snake",
+    "league_config_id": "CDE06"
+  },
+  {
+    "league_settings": {
+      "# of Teams": 14,
+      "draft_type": "snake",
+      "auction_minimum_bid": 1,
+      "auction_target_ratio": 3,
+      "# of weeks": 17,
+      "auction_budget": 100
+    },
+    "submission_timestamp": 1755182613,
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 7,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0
+    },
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 1,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -2
+    },
+    "readable_name": "7B8E2_snake",
+    "league_config_id": "7B8E2"
+  },
+  {
+    "league_settings": {
+      "# of Teams": 12,
+      "draft_type": "snake",
+      "auction_minimum_bid": 1,
+      "auction_target_ratio": 3,
+      "# of weeks": 17,
+      "auction_budget": 100
+    },
+    "submission_timestamp": 1755182614,
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 6,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 0,
+      "WR": 3,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0
+    },
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 2,
+      "Rush TD": 6,
+      "Rec yds": 0.1,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 6,
+      "Int": -2
+    },
+    "readable_name": "809A9_snake",
+    "league_config_id": "809A9"
   }
 ]
