@@ -13931,5 +13931,45 @@
     },
     "readable_name": "A1075_snake",
     "league_config_id": "A1075"
+  },
+  {
+    "league_settings": {
+      "# of Teams": 14,
+      "draft_type": "snake",
+      "auction_minimum_bid": 0,
+      "# of weeks": 17,
+      "auction_budget": 0
+    },
+    "submission_timestamp": 1755224357,
+    "roster_settings": {
+      "RB": 2,
+      "QB": 1,
+      "TE": 1,
+      "Bench": 4,
+      "DST": 1,
+      "WR/RB/TE": 2,
+      "WR/TE": 0,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 0,
+      "QB/WR/RB/TE": 0
+    },
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.1,
+      "Rec": 1,
+      "Rush TD": 6,
+      "Rec yds": 0.07,
+      "Pass yds": 0.04,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -1
+    },
+    "readable_name": "32B46_snake",
+    "league_config_id": "32B46"
   }
 ]
