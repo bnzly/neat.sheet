@@ -16964,5 +16964,46 @@
     },
     "readable_name": "F7D60_auction",
     "league_config_id": "F7D60"
+  },
+  {
+    "league_settings": {
+      "# of Teams": 12,
+      "draft_type": "auction",
+      "auction_minimum_bid": 1,
+      "auction_target_ratio": 3,
+      "# of weeks": 17,
+      "auction_budget": 250
+    },
+    "submission_timestamp": 1755524654,
+    "roster_settings": {
+      "RB": 2,
+      "QB": 2,
+      "TE": 1,
+      "Bench": 7,
+      "DST": 1,
+      "WR/RB/TE": 1,
+      "WR/TE": 1,
+      "WR": 2,
+      "WR/RB": 0,
+      "K": 1,
+      "QB/WR/RB/TE": 0
+    },
+    "action": "submit_config",
+    "scoring_settings": {
+      "Rush yds": 0.11,
+      "Rec": 1,
+      "Rush TD": 6,
+      "Rec yds": 0.11,
+      "Pass yds": 0.03,
+      "2P Pass": 2,
+      "2P Conv": 2,
+      "Rec TD": 6,
+      "Fumble": -2,
+      "Other TD": 6,
+      "Pass TD": 4,
+      "Int": -2
+    },
+    "readable_name": "BB29B_auction",
+    "league_config_id": "BB29B"
   }
 ]
